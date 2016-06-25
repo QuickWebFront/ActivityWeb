@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <title>首页</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+	<link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="./static/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./static/css/base.css">
+	<link rel="stylesheet" href="./static/css/detail_activity.css"/>
+	<script src="./static/js/com.js"></script>
+  </head>
+  <body>
+
+    <script>util.topnav();</script>
+
+	<div class="container content">
+		
+		<ol class="breadcrumb">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="./find_activity.html">IT互联网</a></li>
+			<li class="active">活动XXX</li>
+			<span style="float: right;">发布时间：2016-06-11 14:23:45</span>
+		</ol>
+		<div class="activity_detail">
+
+			<span class="collect"><span class="fa fa-star"></span>收藏</span>
+
+			<div class="col-sm-5 col-xs-5 main_img">
+				<div id="carousel_top" class="carousel slide" data-ride="">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="./static/img/activity_sample.jpg" alt="Activity" />
+						</div>
+
+					</div>
+				</div>
+				<p title="2016活动，2016活动，2016活动">2016活动XXX介绍，2016活动XXX介绍，2016活动XXX介绍</p>
+			</div>
+			<div class="col-sm-7 col-xs-7 activity_price">
+				<h1>
+					<a >活动xxx</a>
+				</h1>
+				<p class="activity_tags">
+
+					<a href="">tag1</a>
+					<a href="">tag2</a>
+
+
+				</p>
+				<p class="activity_message">
+					<span>时间：</span>
+					2016-06-30 8:00至 2016-06-30 18:00结束
+					<!--<span class="dead">(2016-06-15报名截止)</span>-->
+					<br />
+					<span>地点：</span>
+					<font>北京海淀区中关村软件园‎ </font>
+					<span class="map">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<a onclick="Map('北京海淀区中关村软件园‎ ‎  上海龙之梦大酒店')">查看地图</a>
+					</span>
+					<br />
+					<span>价格：</span>
+					<b class="price">￥2000.00</b> <br />
+					<span style="float: left; margin-top: 13px">票种：</span>
+					<span style="display: inline-block; width: 80%">
+						<span class="ticket active" data-price="2000">优惠票</span>
+						<span class="ticket" data-price="2300">VIP票</span>
+					</span>
+					<br />
+					<span>数量：</span>
+					<input id="number" type="text" value="0" />
+					<span class="change_num">
+						<span class="add fa fa-angle-up"></span>
+						<span class="sub fa fa-angle-down"></span>
+					</span>
+					<br />
+				</p>
+				<p class="return ">
+					<span style="color: #BFC2D3">说明：</span> <span
+						style="width: 89%; font-size: 15px; min-height: 63px;" class='explain'> 说明说明说明说明，说明说明 </span>
+				</p>
+
+				<button type="button" id="apply">立即报名</button>
+
+			</div>
+			<div class="bdsharebuttonbox">
+				<span style="line-height: 2.6;margin-left:20px">分享:</span>
+				<a href="#" class="bds_tsina fa fa-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_sqq fa fa-qq" data-cmd="sqq" title="分享到QQ好友"></a>
+				<a href="#" class="bds_weixin fa fa-weixin" data-cmd="weixin" title="分享到微信"></a>
+			</div>
+		</div>
+		
+		<div class="activity_content">
+			<div class="col-sm-9 col-xs-9 activity_left">
+				<ul class="title">
+					<li><span data-plne="meeting_1">活动通知</span></li>
+					<li><span data-plne="meeting_2">活动日程</span></li>
+					<li><span data-plne="meeting_3">活动嘉宾</span></li>
+					<li><span data-plne="meeting_4">活动门票</span></li>
+					<li><span data-plne="meeting_5">精彩回顾</span></li>
+
+				</ul>
+				
+				<div class="event">
+                    <div class="invitation">
+                        尊敬的参会嘉宾：<br/>
+                        <p class="share_text"style="text-indent: 2em">XXX诚邀您参加2016年06月XX日在XX举办的XXX创新大会。</p>
+                        <p class="text-right" style="margin: 15px 0 0">
+                    </div>
+                    
+                    <div class="meetingBgs"  id="meeting_1">
+                        <div class="meetingBgs_name">
+                            <h3>活动通知</h3>
+                        </div>
+						<div class="meeting_content">
+							<p>
+								<img alt="" src="http://placehold.it/673x336" />
+							</p>
+
+							<p>
+								活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍1
+							</p>
+							<p>
+								活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍1
+							</p>
+
+
+							<p>
+								<strong>活动议程设置</strong>
+							</p>
+
+							<p>xxx专题</p><p>xxx专题</p><p>xxx专题</p>
+
+
+							<p>
+								<strong>2016年6月30日 XXXX酒店</strong>
+							</p>
+
+							<p>9:00-17:30 xxxx</p>
+
+							<p>19:00-21:00 xxxx</p>
+
+							<p>
+								<strong>地址：上海市长宁区延安西路1116号</strong>
+							</p>
+						</div>
+
+
+						
+					</div>
+
+          <div class="meetingBgs" style="display: none" id="meeting_2">
+            <div class="meetingBgs_name">
+              <h3>活动日程</h3>
+            </div>
+            <div class="meeting_content">
+              <table class="table-bordered">
+                <thead>
+                <tr>
+                  <th>时间</th>
+                  <th>会场</th>
+                  <th>议题</th>
+                  <th>拟演讲人</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+                <tr>
+                  <td>6月24日上午</td>
+                  <td>主会场</td>
+                  <td></td>
+                  <td>
+                    郝叶力
+                  </td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+          </div>
+					
+					<div class="meetingBgs" style="display: none" id="meeting_3">
+                        <div class="meetingBgs_name" >
+                            <h3>活动嘉宾</h3>
+                        </div>
+						<div class="meeting_content">
+							<div class="gues_mes">
+                                <div class="gues_pic">
+                                    
+                                    <img alt="嘉宾" src=http://placehold.it/250x250 />
+                                                                    
+                                </div>
+                                <p>嘉宾</p>
+                                <p class="gues_company">嘉宾公司</p>
+                                <p class="gues_job">CEO</p>
+                            </div>
+                            <div class="gues_mes">
+                                <div class="gues_pic">
+                                    
+                                    <img alt="嘉宾" src=http://placehold.it/250x250 />
+                                                                    
+                                </div>
+                                <p>嘉宾</p>
+                                <p class="gues_company">嘉宾公司</p>
+                                <p class="gues_job">CEO</p>
+                            </div>
+                            <div class="gues_mes">
+                                <div class="gues_pic">
+                                    
+                                    <img alt="嘉宾" src=http://placehold.it/250x250 />
+                                                                    
+                                </div>
+                                <p>嘉宾</p>
+                                <p class="gues_company">嘉宾公司</p>
+                                <p class="gues_job">CEO</p>
+                            </div>
+							
+						</div>
+					</div>
+					
+					<div class="meetingBgs" style="display: none" id="meeting_4">
+                        <div class="meetingBgs_name" >
+                            <h3>活动门票</h3>
+                        </div>
+						<div class="meeting_content">
+							<p>
+								<strong>优惠票：</strong>优惠票（原价2888元） ￥2000.00 - 报名期：5/15 09:00~/6/15 23:00 说明：高峰论坛、展览互动区
+								、颁奖典礼、茶歇、资料速递
+							</p>
+
+							<p>
+								<strong>VIP票：</strong>优惠价（原价3888元） ￥2700.00 - 报名期：5/15 09:00~/6/15 23:00 说明：高峰论坛、展览互动区
+								、颁奖典礼、茶歇&amp;午餐、资料速递、前排就座
+							</p>
+
+							<p>
+								<strong>双人票：</strong>优惠价（原价4600元） ￥3200.00 - 报名期：5/15 09:00~/6/15 23:00 说明：高峰论坛、展览互动区
+								、颁奖典礼、茶歇、资料速递
+							</p>
+
+							
+						</div>
+					</div>
+					
+					<div class="meetingBgs" style="display: none" id="meeting_5">
+                        <div class="meetingBgs_name" >
+                            <h3>精彩回顾</h3>
+                        </div>
+						<div class="meetingBags_text">
+							<div class="all">
+                                <div class="pic" style="display: none;">
+                                    <img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>本次大会由上午的主题峰会和下午的《CIO网络安全论坛》、《云安全和电商安全论坛》、《大师讲堂》等分论坛组成。“立体化”、“大数据”和“自主可控”成为本次大会的热点关键词，而“互联网+”、“移动”、“云”和“行业”等是此次大会的主要议题方向，“信息安全领袖巅峰对话”和“黑客大师讲堂”成为大会的关注焦点。</p>
+                                </div>
+                                <div class="pic" style="display: none;">
+                                    <img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>北大计算机系主任陈钟认为信息社会全面进入到大数据时代，云计算、大数据的处理使得计算模式发生了相当的变革；而马斌也认为在基于连接一切的平台上，所有的内容都基于大数据的连接，未来一切都是大数据。此外，许多演讲嘉宾分别从移动安全、人工智能、APT等角度阐述了大数据安全的重要性。</p>
+                                </div>
+                                <div class="pic" style="display: none;">
+                                    <img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>腾讯副总裁马斌和百度安全专家等在演讲中都提到了从“云、管、端”三个层面、立体化的角度去思考安全，岱达金融副总裁兼CTO熊军提出安全是一个立体的综合系统，上至政策、社会以及整个财经、政治的大环境，到整个监管层面的中层环境，以及到行业内细分环境来说，大家面临的不仅仅是IT安全这样一个简单的领域。</p>
+                                </div>
+                                <div class="pic active" style="display: block;">
+                                    <img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>本次大会热度远超主办方预期，上午主题峰会座无虚席，许多人因为没有座位只能站着，主办方临时开设了转播间以接纳更多参会者。下午分论坛火爆的人气更是造成了人员的拥堵，尤其《云安全和电商安全》和《大师讲堂》，许多参会者只能席地而坐，坚持到大会结束。据大会主席赛可达实验室CEO宋继忠介绍，本届大会参会者超过70%都是一线行业用户。</p>
+                                </div>
+                                
+                                 <div class="pic active" style="display: block;">
+                                    <img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>本次大会热度远超主办方预期，上午主题峰会座无虚席，许多人因为没有座位只能站着，主办方临时开设了转播间以接纳更多参会者。下午分论坛火爆的人气更是造成了人员的拥堵，尤其《云安全和电商安全》和《大师讲堂》，许多参会者只能席地而坐，坚持到大会结束。据大会主席赛可达实验室CEO宋继忠介绍，本届大会参会者超过70%都是一线行业用户。</p>
+                                </div>
+                                
+                                 <div class="pic active" style="display: block;">
+                                    <img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片">
+                                    <p>本次大会热度远超主办方预期，上午主题峰会座无虚席，许多人因为没有座位只能站着，主办方临时开设了转播间以接纳更多参会者。下午分论坛火爆的人气更是造成了人员的拥堵，尤其《云安全和电商安全》和《大师讲堂》，许多参会者只能席地而坐，坚持到大会结束。据大会主席赛可达实验室CEO宋继忠介绍，本届大会参会者超过70%都是一线行业用户。</p>
+                                </div>
+                                
+                            </div>
+                             <div class="view">
+                                <span class="fa fa-angle-up up"></span>
+                                <span class="fa fa-angle-down down" ></span>
+                                <ul class="all_img">
+                                    <li><img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"></li>
+                                    <li><img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"></li>
+                                    <li><img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"></li>
+                                    <li><img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"></li>
+                                    <li><img src="./static/img/huigu1.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"></li>
+                                    <li><img src="./static/img/huigu2.jpg" alt="2016年第四届中国网络安全大会（NSC 2016）现场图片"><div class="check"></div></li>
+                                </ul>
+                            </div>
+                            
+                            
+						</div>
+					</div>
+				</div><!--  end event-->
+				<!-- user message -->
+				<div class="user_message">
+                    <h3>用户留言
+                        <!--快速登录：<a class="wx" href="">微信</a><a class="weibo" href="">微博</a><a class="QQ" href="">QQ</a></span>-->
+                        <span style="float: right;color: #DEDEDE;">还可以输入<font id="info" style="font-size: 16px">120</font>个字</span>
+                    </h3>
+                    <form class="publish" style="width: 100%;">
+                        <div id="result" style="display: none;"></div>
+                        <textarea class="emotion" rows="5" placeholder="说点什么..." ></textarea><br />
+                        <input class="analytic" type="button" value="留言" />
+                        <img  width="100" onclick="this.setAttribute('src','/get_check_code_image/?nocache='+Math.random());" src="http://placehold.it/100x35" alt="CheckCode" id="cap_img">
+                        <input  type="text" id="code" />
+                    </form>
+                    <p class="all_message">全部留言（1）</p>
+                    <div id="all_messages">
+                        
+                        <div class="message">
+                            <div class="message1 col-sm-12 col-xs-12">
+                                <div style="padding:0;" class="col-sm-1 col-xs-1">
+                                    <span class="fa fa-user fa-4x" style="color:grey"></span>
+                                    
+                                </div>
+                                <div  class="col-sm-11 col-xs-11 words">
+                                    <p><span>匿名用户</span>2016-06-09 10:05:57</p>
+                                    <p style="width: 80%;"> 中国活动在线网是一个提供举办活动所需的资源网，与文艺演出、巡演、会议、展会、拓展训练及企业培训、婚礼及各类型赛事活动等相关，查找全国活动资源。</p>
+                                    <p>
+                                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        </div>
+                    <!--//验证码-->
+                    <!--<div class="model" style="position:absolute;width: 300px;height: 200px;background: #7a7a7a">-->
+                    <!--</div>-->
+                    <!-- -->
+                </div><!-- end message -->
+				<div class="related_activity">
+                    <p>你可能会关注</p>
+                    
+                    <div class="col-sm-3 col-xs-3">
+                        <a href="#" target="_blank">
+                            
+                            <img width="100%" src="./static/img/activity_sample2.jpg" alt="相关活动1"/>
+                            
+                        </a>
+                        <p><a style="color: #5A6070;" href="#" target="_blank">相关活动1</a></p>
+                        <p><span>上海</span><span style="float: right">2016-06-25</span></p>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-3">
+                        <a href="#" target="_blank">
+                            
+                            <img width="100%" src="./static/img/activity_sample2.jpg" alt="相关活动1"/>
+                            
+                        </a>
+                        <p><a style="color: #5A6070;" href="#" target="_blank">相关活动1</a></p>
+                        <p><span>上海</span><span style="float: right">2016-06-25</span></p>
+                    </div>
+                    <div class="col-sm-3 col-xs-3">
+                        <a href="#" target="_blank">
+                            
+                            <img width="100%" src="./static/img/activity_sample2.jpg" alt="相关活动1"/>
+                            
+                        </a>
+                        <p><a style="color: #5A6070;" href="#" target="_blank">相关活动1</a></p>
+                        <p><span>上海</span><span style="float: right">2016-06-25</span></p>
+                    </div>
+                     <div class="col-sm-3 col-xs-3">
+                        <a href="#" target="_blank">
+                            
+                            <img width="100%" src="./static/img/activity_sample2.jpg" alt="相关活动1"/>
+                            
+                        </a>
+                        <p><a style="color: #5A6070;" href="#" target="_blank">相关活动1</a></p>
+                        <p><span>上海</span><span style="float: right">2016-06-25</span></p>
+                    </div>
+                    
+                    
+                    
+                </div>
+				<!-- end 相关活动 -->
+				
+				
+			</div>
+			<!-- END LEFT -->
+			<div class="col-sm-3 col-xs-3 activity_right">
+				<div class="right_child" style="float: left">
+					<div class="activity_share text-center" style="padding:15px;">
+                        <p style="border: none;line-height: 24px">主办单位</p>
+                        
+                        
+                        <div class="logo"><a target="_blank"  href="./sponsor_detail.html">
+                            
+                            <img height="40" src="./static/img/sponsor_sample.jpg" alt="主办单位XXX"/></a>
+                            
+                        </div>
+                        <p class="sponsor_des">主办单位XXX</p>
+                        <span class="attention" style="border-right: 1px solid #BDC3D3"><font>2</font><br/>活动数</span>
+                        <span class="attention"><font>0</font><br/>关注数</span>
+                        
+                        
+                    </div>
+					
+				</div>
+			
+			</div><!-- END RIGHT -->
+		</div>
+	</div><!-- end container -->
+	<div id="myAlert" class="alert alert-success alert_msg" style="">
+	   <a href="#" class="close" >&times;</a>
+	   <strong>收藏成功！</strong>
+	</div>
+	
+	<!-- footer html template -->
+	<script type="text/javascript">
+		util.footerhtml()
+	</script>
+
+	<script src="./static/js/jquery-1.12.4.min.js"></script>
+	<script src="./static/js/bootstrap.min.js"></script>
+	<script src="./static/js/jquery.lazyload.min.js"></script>
+	<script src="./static/js/detail_activity.js"></script>
+</body>
+</html>

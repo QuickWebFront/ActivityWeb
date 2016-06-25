@@ -1,0 +1,623 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+	<link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./static/css/bootstrap-datepicker3.css" rel="stylesheet" />
+    
+    <link href="./static/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/base.css">
+	<link rel="stylesheet" href="./static/css/activityList.css"/>
+	<link rel="stylesheet" href="./static/css/jqcloud.css" >
+
+    <script src="./static/js/com.js"></script>
+</head>
+<style>
+</style>
+<body>
+
+
+
+<script type="text/javascript">util.topnav()</script>
+
+
+	<div class="content">
+		<div class="container">
+			<ol class="breadcrumb">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="./activity_category.html">商务会议</a></li>
+				<li class="active">活动XXX</li>
+				<span style="float: right;">发布时间：2016-06-11 14:23:45</span>
+			</ol>
+			<div class="content_left">
+				<form class="form-inline activity_title" role="form">
+					<div class="form-group classify">
+						<label for="category">行业</label>
+						 <input type="text" class="form-control" id="category" placeholder="不限">
+						 <ul class="meeting_cat">
+							<li><a href="#" title="business">不限</a></li>
+
+							<li><a title="it" href="#">IT互联网</a></li>
+
+							<li><a title="medical" href="#">医疗医学</a></li>
+
+							<li><a title="energy" href="#">能源化工</a></li>
+
+							<li><a title="finance" href="#">金融财经</a></li>
+
+							<li><a title="agricultur" href="#">农林牧渔</a></li>
+
+							<li><a title="edutrain" href="#">教育培训</a></li>
+
+							<li><a title="manufact" href="#">加工制造</a></li>
+
+							<li><a title="realestate" href="#">地产建筑</a></li>
+
+							<li><a title="culmedia" href="#">文化传媒</a></li>
+
+							<li><a title="servindust" href="#">服务行业</a></li>
+
+							<li><a title="tralogist" href="#">交通物流</a></li>
+
+							<li><a title="trade" href="#">其它行业</a></li>
+
+						</ul>
+					</div>
+					<div class="form-group">
+						<label for="city">城市</label>
+						<!-- citi select start -->
+
+						<link href="./static/js/cityselect/station.css" rel="stylesheet" type="text/css">
+						<script src="./static/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+						<script src="./static/js/cityselect/station_name.js" type="text/javascript"></script>
+						<script src="./static/js/cityselect/favorite_name.js" type="text/javascript"></script>
+						<script src="./static/js/cityselect/city_name.js" type="text/javascript"></script>
+						<input name="fromStation" id="fromStation" type="hidden" /> <input name="fromStationText"
+							maxlength="15" value="不限" id="fromStationText" class="input_20txt_gray form-control"
+							type="text" />
+						<div style="top: 0; left: 0; z-index: 1000; POSITION: absolute;">
+							<div style="overflow: hidden; left: 323px; top: 90.5px; display: none;" id="form_cities">
+								<div id="top_cities">简码/汉字或↑↓</div>
+								<div id="panel_cities"></div>
+								<div style="display: block; font-size: 12px !important;" id="flip_cities">
+									«&nbsp;向前&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="" class="cityflip" onclick="city_showlist(1);return false;">向后&nbsp;»</a>
+								</div>
+							</div>
+						</div>
+
+						<div style="top: 0; left: 0; z-index: 1000; POSITION: absolute;">
+							<div style="overflow: hidden; display: none; left: 323px; top: 90.5px;" id="form_cities2">
+								<div id="top_cities1"></div>
+								<div id="panel_cities2"></div>
+							</div>
+						</div>
+						<!--city select end -->
+
+
+					</div>
+					<div class="form-group">
+						<label for="m_date">时间</label>
+						 <input type="text" class="form-control" id="m_date" placeholder="不限">
+						<ul class="meeting_time">
+							<li class="rencent"><a class="select" href="/">不限</a> <a title="13" href="#">最近一周</a>
+								<a title="14" href="#">最近一月</a> <a title="15" href="#">最近三月</a></li>
+
+							<li><span>2016年</span> <a title="06" href="#">06月</a> <a title="07" href="#">07月</a>
+
+								<a title="08" href="#">08月</a> <a title="09" href="#">09月</a> <a title="10"
+									href="#">10月</a> <a title="11" href="#">11月</a> <a title="12" href="#">12月</a></li>
+
+							<li><span>2017年</span> <a title="01" href="#">01月</a> <a title="02" href="#">02月</a>
+
+								<a title="03" href="#">03月</a> <a title="04" href="#">04月</a> <a title="05"
+									href="#">05月</a></li>
+
+						</ul>
+						<div class="input-group date" style="width:95px">
+							<span class="input-group-addon ">
+								<i class="glyphicon glyphicon-th"></i>
+							</span>
+							<input type="text" class="form-control " placeholder="日历">
+							
+						</div>
+					</div>
+
+					<!-- <button type="submit" class="btn btn-default">查找</button> -->
+				</form>
+				
+				
+				<div class="all_events" style="float: left; margin-top: 80px">
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='./activity_detail.html' target="_blank">
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="./activity_detail.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">健身</a>
+
+								<a target="_blank" href="./activity_tags.html">ChinaFit</a>
+
+							</p>
+							<p class='meeting_des'>活动介绍，活动介绍活动介绍，活动介绍活动介绍，活动介绍活动介绍，活动介绍活动介绍，活动介绍活动介绍，活动介绍	</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-06-14
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p style="line-height: 80px">
+								<span>截止</span>
+							</p>
+							<p>关注：56542人气</p>
+						</div>
+					</div>
+
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='/event-4320114.html' target="_blank">
+
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="/event-4320114.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">移动互联网</a>
+
+								<a target="_blank" href="./activity_tags.html">大数据</a>
+
+								<a target="_blank" href="./activity_tags.html">云计算</a>
+
+							</p>
+							<p class='meeting_des'>概述:2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-07-28
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p>
+								<br />
+								<span>￥900.00</span>
+								<br />
+
+							</p>
+							<p>关注：30274人气</p>
+						</div>
+
+					</div>
+					
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='/event-4320114.html' target="_blank">
+
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="/event-4320114.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">移动互联网</a>
+
+								<a target="_blank" href="./activity_tags.html">大数据</a>
+
+								<a target="_blank" href="./activity_tags.html">云计算</a>
+
+							</p>
+							<p class='meeting_des'>概述:2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-07-28
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p>
+								<br />
+								<span>￥900.00</span>
+								<br />
+
+							</p>
+							<p>关注：30274人气</p>
+						</div>
+
+					</div>
+					
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='/event-4320114.html' target="_blank">
+
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="/event-4320114.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">移动互联网</a>
+
+								<a target="_blank" href="./activity_tags.html">大数据</a>
+
+								<a target="_blank" href="./activity_tags.html">云计算</a>
+
+							</p>
+							<p class='meeting_des'>概述:2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-07-28
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p>
+								<br />
+								<span>￥900.00</span>
+								<br />
+
+							</p>
+							<p>关注：30274人气</p>
+						</div>
+
+					</div>
+					
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='/event-4320114.html' target="_blank">
+
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="/event-4320114.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">移动互联网</a>
+
+								<a target="_blank" href="./activity_tags.html">大数据</a>
+
+								<a target="_blank" href="./activity_tags.html">云计算</a>
+
+							</p>
+							<p class='meeting_des'>概述:2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-07-28
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p>
+								<br />
+								<span>￥900.00</span>
+								<br />
+
+							</p>
+							<p>关注：30274人气</p>
+						</div>
+
+					</div>
+					
+					<div class='col-sm-12 col-xs-12 meeting_list' >
+						<div class='col-sm-3 col-xs-3'>
+							<a href='/event-4320114.html' target="_blank">
+
+								<img width='100%' src='./static/img/activity_sample.jpg'
+									alt='2016活动xxx' />
+
+							</a>
+						</div>
+
+						<div class='col-sm-7 col-xs-7 detail'>
+							<h3 class='meeting_name'>
+								<a href="/event-4320114.html" target="_blank">2016活动xxx</a>
+							</h3>
+							<p class='meeting_tag'>
+
+								<a target="_blank" href="./activity_tags.html">移动互联网</a>
+
+								<a target="_blank" href="./activity_tags.html">大数据</a>
+
+								<a target="_blank" href="./activity_tags.html">云计算</a>
+
+							</p>
+							<p class='meeting_des'>概述:2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，2016活动介绍，</p>
+							<p class='addr'>
+								<span>
+									<a href='/beijing/' target="_blank">
+										<font class='m_iconfont'>&#xe609;</font>北京
+									</a>
+								</span>
+								<span>
+									<font style='color: #8C8C8C; font-size: 16px;' class='m_iconfont'>&#xe608;&nbsp;</font>2016-07-28
+								</span>
+							</p>
+						</div>
+
+						<!--标准-->
+
+						<div class="col-sm-2 col-xs-2 price text-center">
+							<p>
+								<br />
+								<span>￥900.00</span>
+								<br />
+
+							</p>
+							<p>关注：30274人气</p>
+						</div>
+
+					</div>
+
+				</div><!-- end all meeting -->
+				
+				
+				
+			</div>
+			<div class=" content_right">
+				<div class="fixed_div content_right_child">
+					
+
+					<div class="hot_theme">
+						<p>热门标签</p>
+						<div id="hot_tags" class="jqcloud" style="padding: 10px;">
+
+							<span>
+								<a target="_blank" href="tag" lang="116">互联网</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="95">移动互联网</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="94">材料</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="93">大数据</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="71">临床医学</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="67">创业创新</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="60">云计算</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="59">金融</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="54">物联网</a>
+							</span>
+
+							<span>
+								<a target="_blank" href="tag" lang="53">互联网金融</a>
+							</span>
+
+						</div>
+					</div>
+					<div class="hot_theme">
+						<p>热门嘉宾</p>
+						<div id="hot_guests" class="jqcloud">
+
+							<span>
+								<a target="_blank" href='#' lang="23">周志轩</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="19">雷军</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="17">徐小平</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="17">张冰</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="16">冯仑</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="15">董明珠</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="15">刘永好</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="14">袁岳</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="13">郎咸平</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="13">李厚德</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">王健林</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">王晖</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">江南春</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">郭凡生</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">张云峰</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="12">盛希泰</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="11">李彦宏</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="11">马云</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="11">傅哲宽</a>
+							</span>
+
+							<span>
+								<a target="_blank" href='#' lang="11">罗军</a>
+							</span>
+
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- footer html template -->
+<script type="text/javascript">
+  util.paginationhtml();
+  util.footerhtml()
+  </script>
+
+  <script src="./static/js/jquery-1.12.4.min.js"></script>
+  <script src="./static/js/bootstrap.min.js"></script>
+  <script src="./static/js/bootstrap-datepicker.min.js"></script>
+    <script src="./static/js/bootstrap-datepicker.zh-CN.min.js"></script>
+  <script src="./static/js/jquery.lazyload.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/activityList.js"></script> 
+  <script src="./static/js/jqcloud-1.0.4.min.js"></script>   
+
+
+
+<script type="text/javascript">
+/// 右侧 停靠
+var right_child=$(".content_right").offset().top-66;// 减去固定导航栏高度66px
+var child_width=$(".content_right").width()
+$.event.add(window, "scroll", function() {
+    var sTop=document.documentElement.scrollTop+document.body.scrollTop;
+    if(sTop>=right_child){
+        $(".content_right_child").css({position:"fixed",top:"70px","z-index":"1000","width":child_width})
+    }else{
+        $(".content_right_child").css({position:"","width":'',"top":''})
+    }
+});
+// 日期
+$('.date').datepicker({
+  language: "zh-CN",
+  format: "dd",
+  autoclose: true,
+});
+
+
+$("#hot_tags a").each(function (i) {
+    var size=$("#hot_tags a")[0].lang/10
+    $($("#hot_tags span")[i]).addClass("w"+parseInt($("#hot_tags a")[i].lang/size))
+})
+$("#hot_guests a").each(function (i) {
+    var size=$("#hot_guests a")[0].lang/8
+    $($("#hot_guests span")[i]).addClass("w"+parseInt($("#hot_guests a")[i].lang/size))
+})
+
+</script>
+</body>
+</html>
