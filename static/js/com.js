@@ -33,7 +33,7 @@ util.topnav=function(active_menu){
 						<form action="./search_activity.html" methon="get"><input name="keyword" type="text" placeholder="搜索活动"><a href="./search_activity.html"><span class="m-search m_iconfont"></span></a></form>
 
 					</li>
-					<li class="login" ><a href="./login.html" rel="nofollow">
+					<li class="login" ><a href="./signin.html" rel="nofollow">
 							<span class="Login" >登录</span>
 
 						</a>
