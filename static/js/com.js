@@ -81,7 +81,7 @@ util.topnav_signed=function(){
 					</li>
 					<li class="login" >
 						<a href="./signin.html" rel="nofollow">
-							<span class="Login" >登录</span>
+							<img style="border-radius: 16px;" width="32px" height="32px" src="http://q.qlogo.cn/qqapp/101263244/91CDCFC82FABF0C84A5000E4A69E6088/40">
 						</a>
 						<ol style="overflow: hidden; display: none;">
 	                        <li><a href="./userindex.html" rel="nofollow">用户中心</a></li>
