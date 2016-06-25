@@ -88,7 +88,7 @@ util.topnav_signed=function(){
 	                        <li><a href="./regevents.html" rel="nofollow">我参与的</a></li>
 	                        <li><a href="./userfollows.html" rel="nofollow">我收藏的</a></li>
 	                        <li><a href="./pubevents.html" rel="nofollow">我发布的</a></li>
-	                        <li><a href="./account_profile" rel="nofollow">账户设置</a></li>
+	                        <li><a href="./account_profile.html" rel="nofollow">账户设置</a></li>
 	                      
 	                        <li class="exit"><a href="#" rel="nofollow">退出</a></li>
 	                      
