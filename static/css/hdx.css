@@ -19,8 +19,8 @@ ol,ul {
 	width: 1080px
 }
 
-#container,#container-lg,#intro-1,#intro-2,#intro-3,#intro-4,#special-topic,.container-padding-top,.find-events,.intro-container,.map-details,.not-found,.user-page-new,.vote-grabbing {
-	padding-top: 100px
+.user-page-new {
+	padding-top: 0px
 }
 
 #container-lg,.find-events,.hdx-header,.org-header,.org-style,.user-page-new {
