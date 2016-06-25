@@ -33,10 +33,11 @@ util.topnav=function(active_menu){
 						<form action="./search_activity.html" methon="get"><input name="keyword" type="text" placeholder="搜索活动"><a href="./search_activity.html"><span class="m-search m_iconfont"></span></a></form>
 
 					</li>
-					<li class="login" ><a href="./signin.html" rel="nofollow">
+					<li class="login" >
+						<a href="./signin.html" rel="nofollow">
 							<span class="Login" >登录</span>
-
 						</a>
+						
 					</li>
 					<li class="postevent" ><a href="./post_activity.html" >+发布活动</a></li>
 					
@@ -49,6 +50,62 @@ util.topnav=function(active_menu){
 	initNavCityMenu();
 	initFindActivityMenu();
 }
+util.topnav_signed=function(){
+	// 导航栏 html 
+	var html = (function () {/*
+	<!-- nav-->
+	<div class="nav navbar-fixed-top">
+		<div class="container">
+			<div class="col-sm-1 col-xs-1">
+				<h1 style="margin: 11px 0">
+					<a href="./static/img/index.html" style="color: white">logo</a>
+				</h1>
+
+			</div>
+			<div class="col-sm-11 col-xs-11 menus">
+				<ul>
+					<li style="width: 30px;"></li>
+					<li class="menue  business"><a target="_blank" href="">
+							全国 <span class="fa fa-angle-down"></span>
+						</a>
+						<div class="business_menue"></div></li>
+					<li class="menue "><a href="./index.html" >首页</a></li>
+					<li class="menue findactivity"><a href="./find_activity.html" >找活动 <span class="fa fa-angle-down"></a>
+						<div class="findactivity_menue"></div>
+					</li>
+					<li class="menue"><a href="./activity_inprocess.html" >活动进行时</a></li>
+					<li class="menue"><a href="./viewpoint_list.html" >观点</a></li>
+					<li class="search">
+						<form action="./search_activity.html" methon="get"><input name="keyword" type="text" placeholder="搜索活动"><a href="./search_activity.html"><span class="m-search m_iconfont"></span></a></form>
+
+					</li>
+					<li class="login" >
+						<a href="./signin.html" rel="nofollow">
+							<span class="Login" >登录</span>
+						</a>
+						<ol style="overflow: hidden; display: none;">
+	                        <li><a href="./userindex.html" rel="nofollow">用户中心</a></li>
+	                        <li><a href="./regevents.html" rel="nofollow">我参与的</a></li>
+	                        <li><a href="./userfollows.html" rel="nofollow">我收藏的</a></li>
+	                        <li><a href="./pubevents.html" rel="nofollow">我发布的</a></li>
+	                        <li><a href="./account_profile" rel="nofollow">账户设置</a></li>
+	                      
+	                        <li class="exit"><a href="#" rel="nofollow">退出</a></li>
+	                      
+	                    </ol>
+					</li>
+					<li class="postevent" ><a href="./post_activity.html" >+发布活动</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>        
+		*/}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
+	document.write(html);
+	initNavCityMenu();
+	initFindActivityMenu();
+}
+
 //util.topnav();
 function initNavCityMenu(){
 	var nav_city_menu = new Array("beijing", "北京", "shanghai", "上海", "guangzhou",

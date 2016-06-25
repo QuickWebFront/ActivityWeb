@@ -106,7 +106,7 @@ PopupMessage(1, "修改个人支付信息出错：服务不存在或无响应", 
     <!--[if lte IE 6]><script src="./static/js/ie/warning.js"></script><script>window.onload=function(){e("./static/img/");}</script><![endif]-->
 
     <!-- Header/Navbar is here -->
-    <script> util.topnav(); </script>
+    <script> util.topnav_signed(); </script>
 
 
     <div class="user-page-new container-lg">
@@ -126,7 +126,7 @@ PopupMessage(1, "修改个人支付信息出错：服务不存在或无响应", 
           </ul>
         </div>
         <div class="content">
-          <h1><a href="/user/index" class="text-primary pull-right small">返回我的活动行</a>常用收款帐号</h1>
+          <h1><a href="./userindex.html" class="text-primary pull-right small">返回用户中心</a>常用收款帐号</h1>
           <div>
             <div class="alert alert-error" style="margin: 20px 0px;">您还没有添加常用收款帐号，点击 <a href="#" onclick="javascript:editUserPaymentInfo(-1,0);return false;">新增</a> 立即添加。</div>
             <div style="margin-top:10px;">
@@ -274,7 +274,7 @@ PopupMessage(1, "修改个人支付信息出错：服务不存在或无响应", 
       </div>
     </div>
     <script type="text/javascript" src="./static/js/libs.min.js"></script>
-
+	<script src="./static/js/index.js"></script>
     <script type="text/javascript">
       $(function () {
           paymentinfo_validate = $("#account_payment_form").validate({
