@@ -55,7 +55,7 @@
       <div class="user-main2">
         <div class="user-nav">
           <div class="avatar">
-            <a href="http://www.huodongxing.com/user/index">
+            <a href="userindex.html">
               <img src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" alt="">iFlare
             </a>
           </div>
@@ -131,7 +131,7 @@
                         专属网址</label>
                       <span class="text-muted">http://</span>
                       <input minlength="7" name="Subdomain" id="Subdomain" type="text" class="form-control" style="width: 100px;"/>
-                      <span class="text-muted">.huodongxing.com</span>
+                      <span class="text-muted"></span>
                     </div>
                     <div class="form-group">
                       <label class="control-label">官方主页链接</label>
@@ -168,8 +168,8 @@
             <h4 class="modal-title">操作提示</h4>
           </div>
           <div class="modal-body">
-            <div style="margin-bottom: 10px;">关注 活动行 微信服务号</div>
-            <img src="http://cdn.huodongxing.com/Content/v2.0/img/qr_normal.png" alt="">
+            <div style="margin-bottom: 10px;">关注微信服务号</div>
+            <img src="http://placehold.it/500x500" alt="">
             <div style="margin: 10px 0;">点击菜单 - 高级 - 推广合作</div>
             <img src="./static/v2.0/img/wechat_promo.jpg" alt="">
           </div>
@@ -781,7 +781,7 @@ $(function () {
     if((currentRegion == null || $.trim(currentRegion) == "") && remote_ip_info.city != null && $.trim(remote_ip_info.city) != ""){
       var regionExDate=new Date();
       regionExDate.setDate(regionExDate.getDate() + 365);
-      document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=huodongxing.com;path=/;expires=" + regionExDate.toGMTString();
+      document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=;path=/;expires=" + regionExDate.toGMTString();
     }
   }
 </script>

@@ -106,8 +106,8 @@
             <h4 class="modal-title">操作提示</h4>
           </div>
           <div class="modal-body">
-            <div style="margin-bottom: 10px;">关注 活动行 微信服务号</div>
-            <img src="http://cdn.huodongxing.com/Content/v2.0/img/qr_normal.png" alt="">
+            <div style="margin-bottom: 10px;">关注微信服务号</div>
+            <img src="http://placehold.it/500x500" alt="">
             <div style="margin: 10px 0;">点击菜单 - 高级 - 推广合作</div>
             <img src="./static/v2.0/img/wechat_promo.jpg" alt="">
           </div>
@@ -419,14 +419,14 @@ $(function () {
     if((currentRegion == null || $.trim(currentRegion) == "") && remote_ip_info.city != null && $.trim(remote_ip_info.city) != ""){
       var regionExDate=new Date();
       regionExDate.setDate(regionExDate.getDate() + 365);
-      document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=huodongxing.com;path=/;expires=" + regionExDate.toGMTString();
+      document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=;path=/;expires=" + regionExDate.toGMTString();
     }
   }
 </script>
 
 <!-- Start Alexa Certify Javascript -->
 <script type="text/javascript">
-  _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "huodongxing.com", dynamic: true };
+  _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "", dynamic: true };
 function alexa_script() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); }
 </script>
 <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=GgKTe1aoiI00WL" style="display:none" height="1" width="1" alt="" /></noscript>
