@@ -1661,7 +1661,7 @@ body {
 
 #account_payment_form .btn-file {
 	font-size: 16px;
-	width: 78px;
+	width: 90px;
 	padding-top: 8px;
 	padding-bottom: 8px
 }
@@ -2581,7 +2581,7 @@ li.org-module-new a {
 	width: 20px;
 	height: 20px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
 }
 
 .preview-container+div p {
@@ -2624,64 +2624,65 @@ li.org-module-new a {
 	background-position: -1493px -22px
 }
 
-.icon-nav-config, .icon-nav-favorite, a:hover .icon-nav-config, a:hover .icon-nav-favorite
+/*.icon-nav-config, .icon-nav-favorite, a:hover .icon-nav-config, a:hover .icon-nav-favorite*/
+.icon-nav-config, .icon-nav-favorite
 	{
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
 }
 
 .icon-nav-config {
 	background-position: -1097px -42px
 }
 
-a:hover .icon-nav-config {
+/* a:hover .icon-nav-config {
 	background-position: -1453px -64px
 }
-
+ */
 .icon-nav-favorite {
 	background-position: -1473px -64px
 }
 
-a:hover .icon-nav-favorite {
+/* a:hover .icon-nav-favorite {
 	background-position: -1550px -43px
-}
+} */
 
-.icon-nav-logo, a:hover .icon-nav-logo {
+ .icon-nav-logo, a:hover .icon-nav-logo {
 	width: 12px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
-}
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+} 
 
 .icon-nav-logo {
 	background-position: -736px -118px
 }
 
-a:hover .icon-nav-logo {
+/* a:hover .icon-nav-logo {
 	background-position: -736px -138px
-}
+} */
 
-.icon-nav-ticket, a:hover .icon-nav-ticket {
+ .icon-nav-ticket, a:hover .icon-nav-ticket {
 	height: 14px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
-}
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+} 
 
 .icon-nav-ticket {
 	width: 18px;
 	background-position: -1278px -153px
 }
 
-a:hover .icon-nav-ticket {
+/* a:hover .icon-nav-ticket {
 	width: 18px;
 	background-position: -1298px -153px
-}
+} */
 
-.icon-nav-create, a:hover .icon-nav-create {
+.icon-nav-create {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	width: 18px;
 	height: 18px
 }
@@ -2690,15 +2691,15 @@ a:hover .icon-nav-ticket {
 	background-position: -1550px -63px
 }
 
-a:hover .icon-nav-create {
+/* a:hover .icon-nav-create {
 	background-position: -1561px -21px
-}
+} */
 
 .goto-mobile>span {
 	width: 45px;
 	height: 45px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -643px -118px
 }
 
@@ -2706,7 +2707,7 @@ a:hover .icon-nav-create {
 	width: 9px;
 	height: 15px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px 0
 }
 
@@ -2714,7 +2715,7 @@ a:hover .icon-nav-create {
 	width: 10px;
 	height: 9px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px -18px
 }
 
@@ -2722,7 +2723,7 @@ a:hover .icon-nav-create {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px -36px
 }
 
@@ -2730,25 +2731,25 @@ a:hover .icon-nav-create {
 	width: 11px;
 	height: 7px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px -54px
 }
 
 .user-event-label-end {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -690px -118px
 }
 
 .user-event-label-favorite {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -843px -128px
 }
 
 .user-event-label-signup {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1214px -84px
 }
 
@@ -2756,7 +2757,7 @@ a:hover .icon-nav-create {
 	width: 12px;
 	height: 13px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px -72px
 }
 
@@ -2764,13 +2765,13 @@ a:hover .icon-nav-create {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1570px -41px
 }
 
 a:focus .icon-user-share, a:hover .icon-user-share {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1570px -61px
 }
 
@@ -2778,13 +2779,13 @@ a:focus .icon-user-share, a:hover .icon-user-share {
 	width: 20px;
 	height: 20px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1493px -44px
 }
 
 a:focus .icon-user-event-config, a:hover .icon-user-event-config {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1502px 0
 }
 
@@ -2792,7 +2793,7 @@ a:focus .icon-user-event-config, a:hover .icon-user-event-config {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1581px -21px
 }
 
@@ -2800,13 +2801,13 @@ a:focus .icon-user-event-config, a:hover .icon-user-event-config {
 	width: 16px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1590px -41px
 }
 
 .icon-event-org, .icon-user-event-edit, .icon-user-event-republish {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	width: 18px
 }
 
@@ -2822,13 +2823,13 @@ a:focus .icon-user-event-config, a:hover .icon-user-event-config {
 
 a:focus .icon-user-event-promo, a:hover .icon-user-event-promo {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1601px -20px
 }
 
 a:focus .icon-user-event-sign, a:hover .icon-user-event-sign {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1608px -40px
 }
 
@@ -2836,26 +2837,26 @@ a:focus .icon-user-event-edit, a:hover .icon-user-event-edit {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1610px -60px
 }
 
 .org-aside-info .icon-user-event-edit, .org-module-new.active .icon-user-event-edit
 	{
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1616px 0
 }
 
 .org-aside-info a:hover .icon-user-event-edit {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1621px -20px
 }
 
 a:focus .icon-user-event-republish, a:hover .icon-user-event-republish {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1626px -40px
 }
 
@@ -2864,18 +2865,18 @@ a:focus .icon-user-event-republish, a:hover .icon-user-event-republish {
 	background-position: -1193px -84px
 }
 
-.current .icon-event-org, a:focus .icon-event-org, a:hover .icon-event-org
+/* .current .icon-event-org, a:focus .icon-event-org, a:hover .icon-event-org
 	{
 	width: 18px;
 	height: 19px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1541px -22px
-}
+} */
 
 .icon-event-price, .icon-nav-bind, .icon-nav-password, .icon-nav-user {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	width: 18px;
 	height: 18px
 }
@@ -2884,14 +2885,14 @@ a:focus .icon-user-event-republish, a:hover .icon-user-event-republish {
 	background-position: -1630px -60px
 }
 
-.current .icon-event-price, a:focus .icon-event-price, a:hover .icon-event-price
+/* .current .icon-event-price, a:focus .icon-event-price, a:hover .icon-event-price
 	{
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1636px 0
-}
+} */
 
 .icon-nav-bind {
 	background-position: -1641px -20px
@@ -2899,7 +2900,7 @@ a:focus .icon-user-event-republish, a:hover .icon-user-event-republish {
 
 a:focus .icon-nav-bind, a:hover .icon-nav-bind {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1646px -40px
 }
 
@@ -2907,27 +2908,27 @@ a:focus .icon-nav-bind, a:hover .icon-nav-bind {
 	background-position: -1650px -60px
 }
 
-a:focus .icon-nav-password, a:hover .icon-nav-password {
+/* a:focus .icon-nav-password, a:hover .icon-nav-password {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1654px -117px
-}
+} */
 
 .icon-nav-user {
 	background-position: -1654px -137px
 }
 
-a:focus .icon-nav-user, a:hover .icon-nav-user {
+/* a:focus .icon-nav-user, a:hover .icon-nav-user {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1656px 0
-}
+} */
 
 .user-favorite-list-org .apply .text-right a:after {
 	width: 9px;
 	height: 9px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1676px -90px
 }
 
@@ -2935,7 +2936,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 24px;
 	height: 20px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1515px -22px
 }
 
@@ -2943,7 +2944,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 416px;
 	height: 46px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -225px -118px
 }
 
@@ -2951,13 +2952,13 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 223px;
 	height: 167px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: 0 0
 }
 
 .user-event-admin-tickets-empty div, .user-event-timeline-empty div {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	width: 320px;
 	height: 40px
 }
@@ -2974,7 +2975,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 297px;
 	height: 43px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -915px -124px
 }
 
@@ -2982,7 +2983,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 17px;
 	height: 17px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -889px -150px
 }
 
@@ -2990,7 +2991,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 17px;
 	height: 17px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1193px -105px
 }
 
@@ -2998,7 +2999,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 32px;
 	height: 32px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1278px -119px
 }
 
@@ -3006,13 +3007,13 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 528px;
 	height: 116px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -225px 0
 }
 
 .icon-attendees-search, .icon-event-ticket-arrow {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	height: 20px
 }
 
@@ -3030,13 +3031,13 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 29px;
 	height: 35px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1131px -84px
 }
 
 .org-app-db .android:hover {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1162px -84px
 }
 
@@ -3044,19 +3045,19 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 30px;
 	height: 34px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1214px -125px
 }
 
 .icon-org-photo, .icon-org-skin {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	height: 30px
 }
 
 .org-app-db .iOS:hover {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1246px -125px
 }
 
@@ -3074,7 +3075,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 32px;
 	height: 32px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1295px -84px
 }
 
@@ -3083,7 +3084,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 33px;
 	height: 33px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1260px -84px
 }
 
@@ -3091,48 +3092,48 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 86px;
 	height: 80px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
 }
 
 .org-style-theme1 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -843px -66px
 }
 
 .org-style-theme2 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -881px 0
 }
 
 .org-style-theme3 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -915px -62px
 }
 
 .org-style-theme4 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -953px 0
 }
 
 .org-style-theme5 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -987px -62px
 }
 
 .org-style-theme6 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1025px 0
 }
 
 .org-style-theme7 {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1059px -62px
 }
 
@@ -3148,7 +3149,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 14px;
 	height: 16px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928)
 }
 
 .icon-org-share {
@@ -3161,7 +3162,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 
 .org-content-empty, .org-event-empty {
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	width: 340px;
 	height: 31px
 }
@@ -3178,7 +3179,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 36px;
 	height: 64px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -843px 0
 }
 
@@ -3186,7 +3187,7 @@ a:focus .icon-nav-user, a:hover .icon-nav-user {
 	width: 48px;
 	height: 19px;
 	background-image:
-		url(sprite/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
+		url(../img/user_pages_bg.32.png?max_age=19830212&d=20151104100928);
 	background-position: -1546px 0
 }
 

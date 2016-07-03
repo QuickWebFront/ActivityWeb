@@ -1,235 +1,278 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<link href="./static/css/bootstrap.min.css" rel="stylesheet"/>
-		<link href="./static/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="./static/css/base.css"> 
-		
-		<script src="./static/js/com.js"></script>
+<link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+<link href="./static/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./static/css/base.css">
 
-		
-		<link href="./static/css/hdx.css" rel="stylesheet" type="text/css" />
- 
-		<!--[if lte IE 6]><link href="./static/css/ie6-fix.css" type="text/css" rel="stylesheet"><![endif]-->
-		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="./static/css/ie.css" /><![endif]-->
-		
-     	<!--[if lt IE 9]><script type="text/javascript" src="./static/js/ie/html5.js"></script><![endif]-->
+<script src="./static/js/com.js"></script>
 
-		<script src="./static/js/jquery/jquery.js" type="text/javascript"></script>
 
-		
-	<link href="./static/css/jquery/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
-	<link href="./static/css/jquery/jquery.Jcrop.min.css" rel="stylesheet" type="text/css" />
-    <link href="./static/css/user_page.min.css" rel="stylesheet" type="text/css" />
+<link href="./static/css/hdx.css" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript" src="./static/js/jquery/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/messages_cn.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.unobtrusive-ajax.min.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.validate.unobtrusive.min.js"></script>
-	<script type="text/javascript" src="./static/js/bootstrap/bootstrap-form.js"></script>
+<!--[if lte IE 6]><link href="./static/css/ie6-fix.css" type="text/css" rel="stylesheet"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="./static/css/ie.css" /><![endif]-->
 
-	<script type="text/javascript" src="./static/js/jquery/jquery.ui.widget.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.iframe-transport.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.fileupload.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.fileupload-fp.js"></script>
-	<script type="text/javascript" src="./static/js/jquery/jquery.Jcrop.min.js"></script>
-	<script type="text/javascript" src="./static/js/bootstrap/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="./static/js/select-city.min.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="./static/js/ie/html5.js"></script><![endif]-->
 
-	<!-- The XDomainRequest Transport is included for cross-domain file deletion for IE8+ -->
-    <!--[if gte IE 8]><script src="./static/js/jquery/cors/jquery.xdr-transport.js"></script><![endif]-->
+<script src="./static/js/jquery/jquery.js" type="text/javascript"></script>
 
-	</head>
-	<body>
-        <!--[if lte IE 6]><script src="./static/js/ie/warning.js"></script><script>window.onload=function(){e("./static/img/");}</script><![endif]-->
-		
+
+<link href="./static/css/jquery/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
+<link href="./static/css/jquery/jquery.Jcrop.min.css" rel="stylesheet" type="text/css" />
+ <link href="./static/css/user_page.min.css" rel="stylesheet" type="text/css" /> 
+<!-- <link href="./static/css/user_center.css" rel="stylesheet" type="text/css" /> -->
+
+<script type="text/javascript" src="./static/js/jquery/jquery.validate.min.js"></script>
+<script type="text/javascript" src="./static/js/jquery/messages_cn.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.unobtrusive-ajax.min.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.validate.unobtrusive.min.js"></script>
+<script type="text/javascript" src="./static/js/bootstrap/bootstrap-form.js"></script>
+
+<script type="text/javascript" src="./static/js/jquery/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.fileupload.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.fileupload-fp.js"></script>
+<script type="text/javascript" src="./static/js/jquery/jquery.Jcrop.min.js"></script>
+<script type="text/javascript" src="./static/js/bootstrap/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="./static/js/select-city.min.js"></script>
+
+<!-- The XDomainRequest Transport is included for cross-domain file deletion for IE8+ -->
+<!--[if gte IE 8]><script src="./static/js/jquery/cors/jquery.xdr-transport.js"></script><![endif]-->
+
+</head>
+<body>
+	<!--[if lte IE 6]><script src="./static/js/ie/warning.js"></script><script>window.onload=function(){e("./static/img/");}</script><![endif]-->
+
 	<!-- nav-->
-	<script>util.topnav_signed();</script> 
-		
-<div class="user-page-new container-lg">
-    <div class="user-main2">
-        <div class="user-nav">
-    <div class="avatar">
-        <a href="./userindex.html">
-            <img src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" alt="">iFlare
-        </a>
-    </div>
-    <ul>
-        <li><a href="./account_profile.html"><span class="icon-nav-user"></span>¸öÈË×ÊÁÏÉèÖÃ</a></li>
-        <li><a href="./account_changepwd.html"><span class="icon-nav-password"></span>ĞŞ¸ÄÃÜÂë</a></li>
-        <li><a href="./account_orgnizers.html"><span class="icon-event-org"></span>Ö÷°ì·½×ÊÁÏ</a></li>
-        <li><a href="./account_payment.html"><span class="icon-event-price"></span>ÊÕ¿îÕÊ»§ÉèÖÃ</a></li>
-        <li><a href="./account_invoice.html"><span class="icon-event-price"></span>·¢Æ±ĞÅÏ¢ÉèÖÃ</a></li>
-    </ul>
-</div>
-        <div class="content">
-            <h1>
-                <a href="./userindex.html" class="text-primary pull-right small">·µ»ØÓÃ»§ÖĞĞÄ</a>
-                ¸öÈË×ÊÁÏÉèÖÃ
-            </h1>
-<form action="" class="form-horizontal" enctype="multipart/form-data" id="user_logo_upload_form" method="post">                
+	<script>util.topnav_signed();</script>
 
-                <fieldset> 
-                    <div class="form-group">
-                        <label class="control-label" >¸öÈËÍ·Ïñ</label>
-                        <div>
-                            <img id="user_logo_image" title="´óÍ·Ïñ" alt="´óÍ·Ïñ" src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30">
-                            <div class="preview-container">
-                                <img id="preview" style="width: 86px; height: 86px; margin-left: -16px; margin-top: -16px;" title="Ğ¡Í·Ïñ" alt="Ğ¡Í·Ïñ" src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30">
-                            </div>
-                            <div>
-                                <p>
-                                    ÉÏ´«µÄÍ·Ïñ»á×Ô¶¯Éú³ÉÍ·ÏñËõÂÔÍ¼£¬ÄúÒ²¿É
-                                    ÒÔÍÏ¶¯´óÍ¼µÄ²Ã¼õÇøÓò£¬µ÷ÕûËõÍ¼ÄÚÈİ¡£
-                                    <br/>
-                                    Ö§³ÖJPG¡¢GIF¡¢PNGµÈÍ¼Æ¬¸ñÊ½
-                                    ÍÆ¼ö³ß´ç£º180*180ÏñËØ
-                                </p>
-                                <div class="btn btn-create-default btn-lg btn-file">
-                                    ÉÏ´«Í·Ïñ<input type="file" id="user_logo_upload_file" name="user_logo_upload_file" />
-                                </div>
-                                <button class="btn btn-primary btn-lg" id="crop_small_logo" title="ÍÏ¶¯¼ô²ÃÇøÓò£¬²Ã¼ôÄúÂúÒâµÄ²¿·Ö" onclick="javascript:saveSmallLogo();return false;">±£´æ</button>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-</form><form action="/profile" class="" id="edit_profile_form" method="post">                <fieldset>
-                    <input id="Account" name="Account" type="hidden" value="1362353926464" />
-                    <input id="Logo" name="Logo" type="hidden" value="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" />
-                    <input id="LogoLarge" name="LogoLarge" type="hidden" value="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" />
-                    <input data-val="true" data-val-required="The EmailActivated field is required." id="EmailActivated" name="EmailActivated" type="hidden" value="False" />
-                    <input data-val="true" data-val-required="The PhoneActivated field is required." id="PhoneActivated" name="PhoneActivated" type="hidden" value="False" />
-                    <input id="Country" name="Country" type="hidden" value="" />
-                    <input id="Province" name="Province" type="hidden" value="" />
-                    <input id="City" name="City" type="hidden" value="" />
-                    <input id="Birthday" name="Birthday" type="hidden" value="" />
-                    <div class="form-group">
-                        <label class="control-label" >êÇ³Æ<em style="color:red;">*</em></label>
-                        <div class="controls">
-                            <input class="form-control form-control-block  required" data-val="true" data-val-length="×Ö·û³¤¶È²»ÄÜ³¬¹ı50" data-val-length-max="50" data-val-required="±ØÌî" id="Nick" name="Nick" type="text" value="iFlare" />
-                            <span class="field-validation-valid" data-valmsg-for="Nick" data-valmsg-replace="true"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >ÕæÊµĞÕÃû</label>
-                        <div class="controls">
-                            <input class="form-control form-control-block" data-val="true" data-val-required="±ØÌî" id="RealName" name="RealName" type="text" value="" />
-                            <span class="field-validation-valid" data-valmsg-for="RealName" data-valmsg-replace="true"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >Ò»¾ä»°½éÉÜ</label>
-                        <div class="controls">
-                            <input class="form-control form-control-block" id="Brief" name="Brief" type="text" data-val-length-max="60" data-val-length="½éÉÜ²»ÄÜ³¬¹ı60×Ö" data-val="true" value="Ò»¾ä»°½éÉÜ">
-						
-                            <span class="field-validation-valid" data-valmsg-for="Brief" data-valmsg-replace="true"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >ÊÖ»úºÅÂë<em style="color:red;">*</em></label>
-                        <div class="controls">
-<input class="form-control" data-val="true" data-val-regex="µç»°ºÅÂë±ØĞë½ö°üº¬Êı×Ö" data-val-regex-pattern="^\+?(([0-9]+)|([0-9]+\-?)|([0-9]+\*?)|([0-9]+\s?)){4,16}$" data-val-required="±ØÌî" id="edit_profile_phone" name="Phone" type="text" value="" />                                <button id="btnValidPhone" type="button" class="btn btn-primary" onclick="javascript:startValidUserContact(1,$('#edit_profile_phone').val(),false,refreshProfilePage);"><i class="icon-ok-sign icon-white"></i>&nbsp;Á¢¼´ÑéÖ¤</button>
-<span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >µç×ÓÓÊÏä<em style="color:red;">*</em></label>
-                        <div class="controls" style="padding-top: 14px;">
-<input class="form-control input-xlarge" data-val="true" data-val-length="µç×ÓÓÊÏäµÄ³¤¶È²»ÄÜ³¬¹ı50×Ö" data-val-length-max="50" data-val-regex="ÎŞĞ§µÄEmailµØÖ·" data-val-regex-pattern="^([A-Za-z0-9]+)(([A-Za-z0-9]+)|(_+)|(\-+)|(\.+)|(\++))*@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$" data-val-required="±ØÌî" id="edit_profile_email" name="Email" type="text" value="" />                                <button id="btnValidEmail" type="button" class="btn btn-primary" onclick="javascript:startValidUserContact(0,$('#edit_profile_email').val(),true,refreshProfilePage);"><i class="icon-ok-sign icon-white"></i>&nbsp;Á¢¼´ÑéÖ¤</button>
-<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>                        </div>
-                    </div>
-				 
-                    <div class="form-group">
-                        <label class="control-label" >ËùÔÚµØÇø<em style="color:red;">*</em></label>
-                        <div class="controls" id="ChinaArea">
-                            <select id="pro" class="input-medium" style="width:116px;"></select>
-                            <select id="city" class="input-medium"></select>
-                            <input type="hidden"  name="Province"  value="" />
-                            <input type="hidden"  name="City"  value=""/>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >ĞÔ±ğ</label>
-                        <div class="controls" style="padding-top:14px">
-                            <label style="display:inline-block;width:60px;">
-<input checked="checked" data-val="true" data-val-number="The field Gender must be a number." data-val-required="The Gender field is required." id="Gender" name="Gender" type="radio" value="1" />                                ÄĞ
-                            </label>
-                            <label style="display:inline-block;width:60px;">
-<input id="Gender" name="Gender" type="radio" value="2" />                                Å®
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-						<label class="control-label" style="margin-top:3px">°²È«ÑéÖ¤<em style="color:red;">*</em></label>
-						
-						<script type="text/javascript" src="https://api.geetest.com/get.php?gt=7a5d83647ca6c3e1d57af217a2e34e20"></script>
-                    </div>
-                    <div class="form-actions text-center">
-                        <button class="btn btn-primary btn-lg" type="submit">È·ÈÏĞŞ¸Ä</button>
-                    </div>
-                </fieldset>
-</form>        </div>
-    </div>
-</div>
-<div class="modal fade" id="dlg_valid_contact" style="z-index:1051">
-	<div class="modal-dialog" style="width:550px;">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">ÑéÖ¤ÁªÏµ·½Ê½</h4>
+	<div class="user-page-new container-lg">
+		<div class="user-main2">
+			<div class="user-nav">
+				<div class="avatar">
+					<a href="./userindex.html">
+						<img src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" alt="">iFlare
+					</a>
+				</div>
+				<ul>
+					<li><a href="./account_profile.html">
+							<span class="icon-nav-user"></span>
+							ä¸ªäººèµ„æ–™è®¾ç½®
+						</a></li>
+					<li><a href="./account_changepwd.html">
+							<span class="icon-nav-password"></span>
+							ä¿®æ”¹å¯†ç 
+						</a></li>
+					<li><a href="./account_orgnizers.html">
+							<span class="icon-event-org"></span>
+							ä¸»åŠæ–¹èµ„æ–™
+						</a></li>
+					<li><a href="./account_payment.html">
+							<span class="icon-event-price"></span>
+							æ”¶æ¬¾å¸æˆ·è®¾ç½®
+						</a></li>
+					<li><a href="./account_invoice.html">
+							<span class="icon-event-price"></span>
+							å‘ç¥¨ä¿¡æ¯è®¾ç½®
+						</a></li>
+				</ul>
 			</div>
-			<div class="modal-body">
-				<div id="valid_process_loading" style="padding:30px 20px;display:none;">
-					<img src='./static/img/loading.gif'/>ÕıÔÚ´¦ÀíÖĞ£¬ÇëÉÔºò...
-				</div> 
-				<div id="valid_content" style="padding:20px 20px 15px;">
-					<div style="font-weight:bold;margin-top:5px">
-						ÑéÖ¤ÁªÏµ·½Ê½ÄÜ¼ÓÇ¿ÕÊ»§»§°²È«£¬¿É±ã½İÕÒ»ØÃÜÂë£¬¶©¹ºµç×ÓÆ±Ò²¿É¿ìËÙÈ¡Æ±¡£
-					</div>
-					<br/>
-					<div id="valid_contact_msg"></div>
-				    <input id="valid_contact_type" type="hidden" value="0"/>
-					<form class = "form-horizontal">
-						<div class="control-group">
-							<label class="control-label" id="valid_contact_type_label">ÑéÖ¤µç×ÓÓÊÏä</label>
-							<div class="controls">
-								<input type="text" value="" class="input-medium" id="valid_contact_type_val"/>
-								<a id="valid_send_code_btn" href="#" class="btn btn-success" >
-									<i class="icon-share-alt icon-white"></i>&nbsp;·¢ËÍÑéÖ¤Âë <span id="sending_animal_remain" style="display:none;"></span>
-								</a>
+			<div class="content">
+				<h1>
+					<a href="./userindex.html" class="text-primary pull-right small">è¿”å›ç”¨æˆ·ä¸­å¿ƒ</a>
+					ä¸ªäººèµ„æ–™è®¾ç½®
+				</h1>
+				<form action="" class="form-horizontal" enctype="multipart/form-data" id="user_logo_upload_form"
+					method="post">
+
+					<fieldset>
+						<div class="form-group">
+							<label class="control-label">ä¸ªäººå¤´åƒ</label>
+							<div>
+								<img id="user_logo_image" title="å¤§å¤´åƒ" alt="å¤§å¤´åƒ"
+									src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30">
+								<div class="preview-container">
+									<img id="preview" style="width: 86px; height: 86px; margin-left: -16px; margin-top: -16px;"
+										title="å°å¤´åƒ" alt="å°å¤´åƒ"
+										src="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30">
+								</div>
+								<div>
+									<p>
+										ä¸Šä¼ çš„å¤´åƒä¼šè‡ªåŠ¨ç”Ÿæˆå¤´åƒç¼©ç•¥å›¾ï¼Œæ‚¨ä¹Ÿå¯ ä»¥æ‹–åŠ¨å¤§å›¾çš„è£å‡åŒºåŸŸï¼Œè°ƒæ•´ç¼©å›¾å†…å®¹ã€‚ <br /> æ”¯æŒJPGã€GIFã€PNGç­‰å›¾ç‰‡æ ¼å¼ æ¨èå°ºå¯¸ï¼š180*180åƒç´ 
+									</p>
+									<div class="btn btn-info btn-lg ">
+										ä¸Šä¼ å¤´åƒ<!-- <input type="file" id="user_logo_upload_file" name="user_logo_upload_file" /> -->
+									</div>
+									<button class="btn btn-primary btn-lg" id="crop_small_logo" title="æ‹–åŠ¨å‰ªè£åŒºåŸŸï¼Œè£å‰ªæ‚¨æ»¡æ„çš„éƒ¨åˆ†"
+										onclick="javascript:saveSmallLogo();return false;">ä¿å­˜</button>
+								</div>
 							</div>
 						</div>
-						<div class="control-group">
-							<label class="control-label" >ÇëÊäÈëÊÕµ½µÄÑéÖ¤Âë</label>
+					</fieldset>
+				</form>
+				<form action="/profile" class="" id="edit_profile_form" method="post">
+					<fieldset>
+						<input id="Account" name="Account" type="hidden" value="1362353926464" /> <input id="Logo"
+							name="Logo" type="hidden"
+							value="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" /> <input
+							id="LogoLarge" name="LogoLarge" type="hidden"
+							value="http://qzapp.qlogo.cn/qzapp/100306609/15158C509654BB7A4AE0D9E772EBA691/30" /> <input
+							data-val="true" data-val-required="The EmailActivated field is required." id="EmailActivated"
+							name="EmailActivated" type="hidden" value="False" /> <input data-val="true"
+							data-val-required="The PhoneActivated field is required." id="PhoneActivated"
+							name="PhoneActivated" type="hidden" value="False" /> <input id="Country" name="Country"
+							type="hidden" value="" /> <input id="Province" name="Province" type="hidden" value="" /> <input
+							id="City" name="City" type="hidden" value="" /> <input id="Birthday" name="Birthday"
+							type="hidden" value="" />
+						<div class="form-group">
+							<label class="control-label">æ˜µç§°<em style="color: red;">*</em></label>
 							<div class="controls">
-								<input id="valid_contact_code" type="text" value="" class="input-medium"/>
-								<button id="valid_submit_btn" type="button" class="btn btn-primary" onclick="javascript:submitValidContact();">
-									<i class="icon-ok icon-white"></i>&nbsp;È·&nbsp;¶¨&nbsp;
+								<input class="form-control form-control-block  required" data-val="true"
+									data-val-length="å­—ç¬¦é•¿åº¦ä¸èƒ½è¶…è¿‡50" data-val-length-max="50" data-val-required="å¿…å¡«" id="Nick"
+									name="Nick" type="text" value="iFlare" />
+								<span class="field-validation-valid" data-valmsg-for="Nick" data-valmsg-replace="true"></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">çœŸå®å§“å</label>
+							<div class="controls">
+								<input class="form-control form-control-block" data-val="true" data-val-required="å¿…å¡«"
+									id="RealName" name="RealName" type="text" value="" />
+								<span class="field-validation-valid" data-valmsg-for="RealName" data-valmsg-replace="true"></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">ä¸€å¥è¯ä»‹ç»</label>
+							<div class="controls">
+								<input class="form-control form-control-block" id="Brief" name="Brief" type="text"
+									data-val-length-max="60" data-val-length="ä»‹ç»ä¸èƒ½è¶…è¿‡60å­—" data-val="true" value="ä¸€å¥è¯ä»‹ç»">
+
+								<span class="field-validation-valid" data-valmsg-for="Brief" data-valmsg-replace="true"></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">æ‰‹æœºå·ç <em style="color: red;">*</em></label>
+							<div class="controls">
+								<input class="form-control input-medium" data-val="true" data-val-regex="ç”µè¯å·ç å¿…é¡»ä»…åŒ…å«æ•°å­—"
+									data-val-regex-pattern="^\+?(([0-9]+)|([0-9]+\-?)|([0-9]+\*?)|([0-9]+\s?)){4,16}$"
+									data-val-required="å¿…å¡«" id="edit_profile_phone" name="Phone" type="text" value="" />
+								<button id="btnValidPhone" type="button" class="btn btn-primary"
+									onclick="javascript:startValidUserContact(1,$('#edit_profile_phone').val(),false,refreshProfilePage);">
+									<i class="icon-ok-sign icon-white"></i>&nbsp;ç«‹å³éªŒè¯
 								</button>
+								<span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
 							</div>
 						</div>
-					</form>
-					<br/>
-				</div> 
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">
-					<i class="icon-off"></i>&nbsp;¹Ø±Õ&nbsp;
-				</button>
+						<div class="form-group">
+							<label class="control-label">ç”µå­é‚®ç®±<em style="color: red;">*</em></label>
+							<div class="controls" style="padding-top: 14px;">
+								<input class="form-control input-xlarge " data-val="true" data-val-length="ç”µå­é‚®ç®±çš„é•¿åº¦ä¸èƒ½è¶…è¿‡50å­—"
+									data-val-length-max="50" data-val-regex="æ— æ•ˆçš„Emailåœ°å€"
+									data-val-regex-pattern="^([A-Za-z0-9]+)(([A-Za-z0-9]+)|(_+)|(\-+)|(\.+)|(\++))*@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$"
+									data-val-required="å¿…å¡«" id="edit_profile_email" name="Email" type="text" value="" />
+								<button id="btnValidEmail" type="button" class="btn btn-primary"
+									onclick="javascript:startValidUserContact(0,$('#edit_profile_email').val(),true,refreshProfilePage);">
+									<i class="icon-ok-sign icon-white"></i>&nbsp;ç«‹å³éªŒè¯
+								</button>
+								<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">æ‰€åœ¨åœ°åŒº<em style="color: red;">*</em></label>
+							<div class="controls" id="ChinaArea">
+								<select id="pro" class="input-medium" style="width: 116px;"></select> <select id="city"
+									class="input-medium"></select> <input type="hidden" name="Province" value="" /> <input
+									type="hidden" name="City" value="" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">æ€§åˆ«</label>
+							<div class="controls" style="padding-top: 14px">
+								<label style="display: inline-block; width: 60px;"> <input checked="checked"
+									data-val="true" data-val-number="The field Gender must be a number."
+									data-val-required="The Gender field is required." id="Gender" name="Gender" type="radio"
+									value="1" /> ç”·
+								</label> <label style="display: inline-block; width: 60px;"> <input id="Gender"
+									name="Gender" type="radio" value="2" /> å¥³
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label" style="margin-top: 3px">å®‰å…¨éªŒè¯<em style="color: red;">*</em></label>
+
+							<script type="text/javascript"
+								src="https://api.geetest.com/get.php?gt=7a5d83647ca6c3e1d57af217a2e34e20"></script>
+						</div>
+						<div class="form-actions text-center">
+							<button class="btn btn-primary btn-lg" type="submit">ç¡®è®¤ä¿®æ”¹</button>
+						</div>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 	</div>
-</div>
-<script src="./static/js/index.js"></script>
-<script type="text/javascript">
+	<div class="modal fade" id="dlg_valid_contact" style="z-index: 1051">
+		<div class="modal-dialog" style="width: 550px;">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">éªŒè¯è”ç³»æ–¹å¼</h4>
+				</div>
+				<div class="modal-body">
+					<div id="valid_process_loading" style="padding: 30px 20px; display: none;">
+						<img src='./static/img/loading.gif' />æ­£åœ¨å¤„ç†ä¸­ï¼Œè¯·ç¨å€™...
+					</div>
+					<div id="valid_content" style="padding: 20px 20px 15px;">
+						<div style="font-weight: bold; margin-top: 5px">éªŒè¯è”ç³»æ–¹å¼èƒ½åŠ å¼ºå¸æˆ·æˆ·å®‰å…¨ï¼Œå¯ä¾¿æ·æ‰¾å›å¯†ç ï¼Œè®¢è´­ç”µå­ç¥¨ä¹Ÿå¯å¿«é€Ÿå–ç¥¨ã€‚</div>
+						<br />
+						<div id="valid_contact_msg"></div>
+						<input id="valid_contact_type" type="hidden" value="0" />
+						<form class="form-horizontal">
+							<div class="control-group">
+								<label class="control-label" id="valid_contact_type_label">éªŒè¯ç”µå­é‚®ç®±</label>
+								<div class="controls">
+									<input type="text" value="" class="input-medium" id="valid_contact_type_val" />
+									<a id="valid_send_code_btn" href="#" class="btn btn-success">
+										<i class="icon-share-alt icon-white"></i>&nbsp;å‘é€éªŒè¯ç 
+										<span id="sending_animal_remain" style="display: none;"></span>
+									</a>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label">è¯·è¾“å…¥æ”¶åˆ°çš„éªŒè¯ç </label>
+								<div class="controls">
+									<input id="valid_contact_code" type="text" value="" class="input-medium" />
+									<button id="valid_submit_btn" type="button" class="btn btn-primary"
+										onclick="javascript:submitValidContact();">
+										<i class="icon-ok icon-white"></i>&nbsp;ç¡®&nbsp;å®š&nbsp;
+									</button>
+								</div>
+							</div>
+						</form>
+						<br />
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">
+						<i class="icon-off"></i>&nbsp;å…³é—­&nbsp;
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./static/js/index.js"></script>
+	<script type="text/javascript">
 	var animal_sending_timer = null;
 	var onContactValidSuccess = null;
 	function startValidUserContact(type, val, autoSend, func){
 		$("#valid_contact_type").val(type);
-		$("#valid_contact_type_label").html(type == 0 ? "ÑéÖ¤µç×ÓÓÊÏä" : "ÑéÖ¤ÊÖ»úºÅÂë");
+		$("#valid_contact_type_label").html(type == 0 ? "éªŒè¯ç”µå­é‚®ç®±" : "éªŒè¯æ‰‹æœºå·ç ");
 		if(val != null && $.trim(val) != "") $("#valid_contact_type_val").val(val);
 		$("#valid_contact_type_val").prop("disabled", false);
 		$("#valid_contact_msg").empty();
@@ -240,11 +283,11 @@
 	}
 	function submitValidContact(){
 		if ($.trim($("#valid_contact_code").val()) == "") {
-            window.alert("ÇëÊäÈëÄúÊÕµ½µÄÑéÖ¤Âë¡£");
+            window.alert("è¯·è¾“å…¥æ‚¨æ”¶åˆ°çš„éªŒè¯ç ã€‚");
             return false;
         }
         var btnSubmit = $("#valid_submit_btn");
-        //btnSubmit.button('ÑéÖ¤ÖĞ...');
+        //btnSubmit.button('éªŒè¯ä¸­...');
         //setTimeout(function () { btnSubmit.button('reset'); }, 3000);
         $("#valid_process_loading").show();
         $("#valid_content").hide();
@@ -260,7 +303,7 @@
 				if(data != null && data.AjaxErrStatus != null && data.AjaxErrStatus == 1){
 					$("#valid_content").show();
 					$("#valid_contact_msg").empty();
-					$("#valid_contact_msg").append('<div class="alert alert-error">È·¶¨ÑéÖ¤Âë³ö´í£¬Ô­Òò£º' + data.AjaxErrMsg + '</div>');
+					$("#valid_contact_msg").append('<div class="alert alert-error">ç¡®å®šéªŒè¯ç å‡ºé”™ï¼ŒåŸå› ï¼š' + data.AjaxErrMsg + '</div>');
 					return;
 				}
 
@@ -277,14 +320,14 @@
 					catch(e){}
                 } else {
                     $("#valid_contact_code").val("");
-                    $("#valid_contact_msg").append('<div class="alert alert-error">ÑéÖ¤Âë´íÎó»òÒÑÎŞĞ§£¬ÇëÖØÊÔ¡£</div>');
+                    $("#valid_contact_msg").append('<div class="alert alert-error">éªŒè¯ç é”™è¯¯æˆ–å·²æ— æ•ˆï¼Œè¯·é‡è¯•ã€‚</div>');
                 }
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
 				$("#valid_process_loading").hide();
                 $("#valid_content").show();
                 $("#valid_contact_msg").empty();
-				$("#valid_contact_msg").append('<div class="alert alert-error">È·¶¨ÑéÖ¤Âë³ö´í£¬Ô­Òò£º·şÎñ²»´æÔÚ»òÎŞÏìÓ¦</div>');
+				$("#valid_contact_msg").append('<div class="alert alert-error">ç¡®å®šéªŒè¯ç å‡ºé”™ï¼ŒåŸå› ï¼šæœåŠ¡ä¸å­˜åœ¨æˆ–æ— å“åº”</div>');
             }
         });
 	}
@@ -295,7 +338,7 @@
 		var aim = $("#valid_contact_type_val").val();
 		var type = $("#valid_contact_type").val();
 		if(aim == null || $.trim(aim) == ""){
-			$("#valid_contact_msg").append('<div class="alert alert-error">ÇëÊäÈë' + (type=="0"?'ÓÊÏäµØÖ·':'ÊÖ»úºÅÂë') + '¡£</div>');
+			$("#valid_contact_msg").append('<div class="alert alert-error">è¯·è¾“å…¥' + (type=="0"?'é‚®ç®±åœ°å€':'æ‰‹æœºå·ç ') + 'ã€‚</div>');
 			return;
 		}
         $("#valid_content").hide();
@@ -320,7 +363,7 @@
 						$("#valid_process_loading").hide();
 						$("#valid_content").show();
 						$("#valid_contact_msg").empty();
-						$("#valid_contact_msg").append('<div class="alert alert-error">·¢ËÍÑéÖ¤Âë³ö´í£¬Ô­Òò£º' +  data.AjaxErrMsg + '</div>');
+						$("#valid_contact_msg").append('<div class="alert alert-error">å‘é€éªŒè¯ç å‡ºé”™ï¼ŒåŸå› ï¼š' +  data.AjaxErrMsg + '</div>');
 						$("#valid_contact_type_val").prop("disabled", false);
 						time_remain = 0;
 						return;
@@ -331,12 +374,12 @@
                     $("#valid_contact_msg").empty();
                     if (data != null && data > 0) {
                         if ($("#valid_contact_type").val() == 1) {
-                            $("#valid_contact_msg").append('<div class="alert alert-success"><strong>ÑéÖ¤ÂëÒÑ³É¹¦·¢ËÍµ½ÄúµÄÊÖ»ú¡£</strong>&nbsp;£¨ÈçÄúÒ»Ö±Ã»ÓĞÊÕµ½£¬¿Éµã»÷¡°·¢ËÍÑéÖ¤Âë¡±°´Å¥ÖØĞÂ·¢ËÍ£¬Ò»ÈÕÄÚÏŞ·¢Èı´Î£©</div>');
+                            $("#valid_contact_msg").append('<div class="alert alert-success"><strong>éªŒè¯ç å·²æˆåŠŸå‘é€åˆ°æ‚¨çš„æ‰‹æœºã€‚</strong>&nbsp;ï¼ˆå¦‚æ‚¨ä¸€ç›´æ²¡æœ‰æ”¶åˆ°ï¼Œå¯ç‚¹å‡»â€œå‘é€éªŒè¯ç â€æŒ‰é’®é‡æ–°å‘é€ï¼Œä¸€æ—¥å†…é™å‘ä¸‰æ¬¡ï¼‰</div>');
                         } else {
-                            $("#valid_contact_msg").append('<div class="alert alert-success"><strong>ÑéÖ¤ÂëÒÑ³É¹¦·¢µ½ÄúµÄĞÅÏä¡£</strong>&nbsp;£¨ÈçÄúÒ»Ö±Ã»ÓĞÊÕµ½£¬¿Éµã»÷¡°·¢ËÍÑéÖ¤Âë¡±°´Å¥ÖØĞÂ·¢ËÍ£¬Ò»ÈÕÄÚÏŞ·¢Îå´Î£©</div>');
+                            $("#valid_contact_msg").append('<div class="alert alert-success"><strong>éªŒè¯ç å·²æˆåŠŸå‘åˆ°æ‚¨çš„ä¿¡ç®±ã€‚</strong>&nbsp;ï¼ˆå¦‚æ‚¨ä¸€ç›´æ²¡æœ‰æ”¶åˆ°ï¼Œå¯ç‚¹å‡»â€œå‘é€éªŒè¯ç â€æŒ‰é’®é‡æ–°å‘é€ï¼Œä¸€æ—¥å†…é™å‘äº”æ¬¡ï¼‰</div>');
                         }
                     } else {
-                        $("#valid_contact_msg").append('<div class="alert alert-error">ÑéÖ¤Âë·¢ËÍ³ö´í£¬ÇëÉÔºòÖØÊÔ¡£</div>');
+                        $("#valid_contact_msg").append('<div class="alert alert-error">éªŒè¯ç å‘é€å‡ºé”™ï¼Œè¯·ç¨å€™é‡è¯•ã€‚</div>');
 						$("#valid_contact_type_val").prop("disabled", false);
 						time_remain = 0;
                     }
@@ -345,7 +388,7 @@
 					$("#valid_process_loading").hide();
                     $("#valid_content").show();
                     $("#valid_contact_msg").empty();
-					$("#valid_contact_msg").append('<div class="alert alert-error">·¢ËÍÑéÖ¤Âë³ö´í£¬Ô­Òò£º·şÎñ²»´æÔÚ»òÎŞÏìÓ¦</div>');
+					$("#valid_contact_msg").append('<div class="alert alert-error">å‘é€éªŒè¯ç å‡ºé”™ï¼ŒåŸå› ï¼šæœåŠ¡ä¸å­˜åœ¨æˆ–æ— å“åº”</div>');
 					$("#valid_contact_type_val").prop("disabled", false);
 					time_remain = 0;
                 }
@@ -366,80 +409,33 @@
     }
 </script>
 
- 
+
 	<!-- footer html template -->
 	<script type="text/javascript">util.footerhtml()</script>
-   
 
 
-<div class="modal fade modal-confirm" id="promo-modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">²Ù×÷ÌáÊ¾</h4>
-                </div>
-                <div class="modal-body">
-                    <div style="margin-bottom: 10px;">¹Ø×¢Î¢ĞÅ·şÎñºÅ</div>
-                    <img src="http://placehold.it/500x500" alt="">
-                    <div style="margin: 10px 0;">µã»÷²Ëµ¥ - ¸ß¼¶ - ÍÆ¹ãºÏ×÷</div>
-                    <img src="./static/v2.0/img/wechat_promo.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-		<div class="feedback-layer modal fade" id="home_feedback_layer">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">¡Á</button>
-						<h4 class="modal-title">ÈÃÅúÆÀºÍ¿ÚË®À´µÄ¸üÃÍÁÒĞ©°É£¡</h4>
-					</div>
-					<div class="modal-body">
-						
-						<div class="feedback-face"></div>
-						<form action="">
-							<input class="form-control" type="text" placeholder="ÇëÊäÈëÄúµÄÓÊÏä/ÊÖ»úºÅ" id="home_suggest_contact" max-length="64" value=""/>
-							<textarea placeholder="ÔÚÕâÀïĞ´ÏÂÄúÏëËµµÄ»°¡£" id="home_suggest_content" max-length="512"></textarea>
-							<div class="text-right">
-								<button type="button" class="btn btn-link" data-dismiss="modal">È¡Ïû</button><button type="button" class="btn btn-primary btn-lg" onclick="javascript:submitMySuggestion();">·¢ËÍ</button>
-							</div>
-						</form>
-					</div>
+
+	
+	
+	
+	<div class="modal fade" id="pop_message_dlg"
+		style="margin-top: 250px; overflow-y: auto; z-index: 10000">
+		<div class="modal-dialog" style="width: 550px;">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">Ã—</button>
+					<h4 class="modal-title" id="pop_msg_head">
+						<span class="icon-danger" id="pop_message_icon"></span>
+						<span id="pop_message_content"></span>
+					</h4>
 				</div>
 			</div>
 		</div>
-		<div class="bottom_tools" style="display:block;">
-	        <div class="qr_tool">
-	            ¶şÎ¬Âë
-	        </div>
-	        <a id="feedback" href="#home_feedback_layer" data-toggle="modal" title="Òâ¼û·´À¡">Òâ¼û·´À¡</a>
-	        <a id="scrollUp" href="#" title="·É»Ø¶¥²¿" style="display:none;"></a>
-			<img class="qr_img fade hide" src="./static/v2.0/img/css/qr_img.png">
-	    </div>
-		<div class="modal fade" id="pop_message_dlg" style="margin-top:250px;overflow-y:auto;z-index:10000">
-			<div class="modal-dialog" style="width:550px;">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">¡Á</button>
-						<h4 class="modal-title" id="pop_msg_head"><span class="icon-danger" id="pop_message_icon"></span><span id="pop_message_content"></span></h4>
-					</div>
-				</div>
-			</div>
-		</div>
+	</div>
 
-		<div id="jquery_ajax_loading" class="layer-warning modal" style="margin-top:250px;overflow-y:auto;">
-			<div class="modal-dialog" style="width:450px;">
-				<div class="modal-content">
-					<div class="modal-body">
-						<p><span class="icon-warning"></span> Ò³ÃæÕıÔÚ¼ÓÔØÖĞ£¬ÇëÄÍĞÄµÈ´ı...</p>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-        <script type="text/javascript" src="./static/js/libs.min.js"></script>
-		
+
+	<script type="text/javascript" src="./static/js/libs.min.js"></script>
+
 	<script type="text/javascript">
        $(function () {
 			$("#edit_profile_form").validate({
@@ -470,7 +466,7 @@
 				data: {"cx":$("#cx").val(),"cy":$("#cy").val(),"cx2":$("#cx2").val(),"cy2":$("#cy2").val(),"cw":$("#cw").val(),"ch":$("#ch").val(),"cropLogo":"true","webTokenValue":"12D7C005834E90000236E45A6F6C1F64379B525CE26E6C7F473D8AE05E107FB35D"},
 				success: function(data){
 					if(data != null && typeof (data.AjaxErrStatus) != "undefined" && data.AjaxErrStatus == 1){
-						PopupMessage(1, "¼ô²ÃÍ·Ïñ³ö´í£¬Ô­Òò£º" + data.AjaxErrMsg, 3000);
+						PopupMessage(1, "å‰ªè£å¤´åƒå‡ºé”™ï¼ŒåŸå› ï¼š" + data.AjaxErrMsg, 3000);
 						$("#crop_small_logo").prop("disabled", false);
 						return;
 					}
@@ -481,14 +477,14 @@
                             $("#Logo").val(result.logo);
                         if(result.logoLarge != null && typeof (result.logoLarge) != "undefined" && result.logoLarge != '' && result.logoLarge != 'null')
                             $("#LogoLarge").val(result.logoLarge);
-						PopupMessage(0, "¼ô²ÃËõÍ¼³É¹¦¡£", 1500);
+						PopupMessage(0, "å‰ªè£ç¼©å›¾æˆåŠŸã€‚", 1500);
 					}else{
-						PopupMessage(1, "¼ô²ÃÍ·Ïñ³ö´í£¬ÇëÉÔºòÖØÊÔ¡£", 3000);
+						PopupMessage(1, "å‰ªè£å¤´åƒå‡ºé”™ï¼Œè¯·ç¨å€™é‡è¯•ã€‚", 3000);
 					}
 					$("#crop_small_logo").attr("disabled", false);
 				},
 				error: function (XMLHttpRequest, textStatus, errorThrown) {
-					PopupMessage(1, "¼ô²ÃÍ·Ïñ³ö´í£¬ÇëÉÔºòÖØÊÔ¡£", 3000);
+					PopupMessage(1, "å‰ªè£å¤´åƒå‡ºé”™ï¼Œè¯·ç¨å€™é‡è¯•ã€‚", 3000);
 					$("#crop_small_logo").attr("disabled", false);
 				}
 			});
@@ -545,7 +541,7 @@
                           if (data.result[0] != null && data.result[0].activeElement != null) result = $.trim(data.result[0].activeElement.innerText);
                       }
                       if (result.indexOf("ERROR") >= 0) {
-                          window.alert("¶Ô²»Æğ£¬ÉÏ´«Í·Ïñ³ö´í£¬Ô­Òò£º" + result.substring(7));
+                          window.alert("å¯¹ä¸èµ·ï¼Œä¸Šä¼ å¤´åƒå‡ºé”™ï¼ŒåŸå› ï¼š" + result.substring(7));
                       }
                       else {
                           //if (result != null && typeof (result) != "undefined") result = result.replace(/\"/g, "");
@@ -561,14 +557,14 @@
                             $("#user_logo_image").prop("src", logoUrl);
                             $(".jcrop-holder img").prop("src", logoUrl);
                             initCrop();
-							PopupMessage(0, "ÉÏ´«Í·Ïñ³É¹¦£¡", 1500);
+							PopupMessage(0, "ä¸Šä¼ å¤´åƒæˆåŠŸï¼", 1500);
                           } else {
-                              window.alert("¶Ô²»Æğ£¬ÉÏ´«Í·Ïñ³ö´í£¬ÇëÉÔºòÖØÊÔ¡£");
+                              window.alert("å¯¹ä¸èµ·ï¼Œä¸Šä¼ å¤´åƒå‡ºé”™ï¼Œè¯·ç¨å€™é‡è¯•ã€‚");
                           }
                       }
                   },
                   fail: function (e, data) {
-                      window.alert("¶Ô²»Æğ£¬ÉÏ´«Í·Ïñ³ö´í£¬ÇëÉÔºòÖØÊÔ¡£");
+                      window.alert("å¯¹ä¸èµ·ï¼Œä¸Šä¼ å¤´åƒå‡ºé”™ï¼Œè¯·ç¨å€™é‡è¯•ã€‚");
                   }
             });
 
@@ -617,188 +613,6 @@ crop=[0,0,100,100];                jcrop_api=$('#user_logo_image').Jcrop({
         });
 	</script>
 
-		<script type="text/javascript">
-			function submitMySuggestion(){
-				var sContactVal = $("#home_suggest_contact").val();
-				var sContentVal = $("#home_suggest_content").val();
-				if(sContactVal == '' || sContentVal == '') return;
-				$.ajax({
-					url: '/suggest',
-					type: "POST",
-					data: { "contact": sContactVal, "content": sContentVal, "token":"123BCD85A62AE727D0EC1AB891B49C8FB4703975D56760A2D364FACF83774B7EECBE5A31FC42E1ECFA" },
-					success: function (data) {
-						window.alert("ÎÒÃÇÒÑÊÕµ½Äú·´À¡µÄÒâ¼û£¬¸ĞĞ»¶ÔÎÒÃÇµÄÖ§³Ö¡£");
-						$("#home_feedback_layer").modal("hide");
-					}
-				});
-            }
 
-
-			+function ($) {
-				var $window = $(window);
-				var $body = $(document.body);
-				var $navBar = $('.hdx-header');
-  				var headerHeight = $navBar.outerHeight(true);
-				var $subNavBar = $('.sub_nav');
-				$body.scrollspy({
-					target: '.intro-nav',
-					offset: headerHeight + 40
-				});
-				$window.on('load', function () { $body.scrollspy('refresh'); });
-
-				var $introNav = $('.intro-nav');
-				var $bottomTools = $('.bottom_tools');
-				var $qrTools = $('.qr_tool');
-				var qrImg = $('.qr_img');
-				$introNav
-					.affix({
-					      offset:{
-					        bottom:$('.page-footer').outerHeight()
-					      }
-					    })
-					.find('.nav > a').click(function (e) { e.preventDefault(); });
-
-				setTimeout(function () {
-					$window.scroll(function () {
-						var scrollHeight = $(document).height();
-						var scrollTop = $window.scrollTop();
-						var $footerHeight = $('.page-footer').outerHeight(true);
-						var $windowHeight = $window.innerHeight();
-						$window.scrollTop() > 50 ? $("#scrollUp").fadeIn(200) : $("#scrollUp").fadeOut(200);
-						$bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 20 : $windowHeight + scrollTop + $footerHeight + 20 - scrollHeight);
-					});
-					$('#scrollUp').click(function (e) {
-						e.preventDefault();
-						$('html,body').animate({ scrollTop: 0 });
-					});
-					$qrTools.hover(function(){
-				      qrImg.removeClass('hide')
-				      $.support.transition ?
-				        qrImg
-				          .one($.support.transition.end, function(){
-				            qrImg.addClass('in')
-				          })
-				          .emulateTransitionEnd(150) :
-				        qrImg.addClass('in')
-				    },function(){
-				      qrImg.removeClass('in')
-				      $.support.transition ?
-				        qrImg
-				          .one($.support.transition.end, function(){
-				            qrImg.addClass('hide')
-				          }) :
-				        qrImg.addClass('hide')
-				    })
-				}, 500);
-                $('.hdx-header .search').on('click','li a',function(e){
-                    e.preventDefault();
-                    //var parent= $(this).parent().parent('.dropdown').find('span')[0].innerHTML;
-                    //var parent= $(this).parent().parent('.dropdown').find('span')[0].attr("str");
-                    var affiliation = $(this).attr("title");
-                    var current = $(this).attr("str");
-                    if(affiliation != current){
-                        $("#searchEventArea").toggle();
-                        $("#searchOrgArea").toggle();
-                    }
-                });
-                $("#searchOrgArea button").bind("click", function () {
-                    var qs = $("#searchOrgArea input[type='text']").val();
-                    if (qs != null && qs != '') {
-                        window.location = '/zhubanfang/a?p=1' + encodeURI("&qs=" + qs);
-                    }
-                });
-				$('.aside h2 .more').click(function(e){
-				    //e.preventDefault();
-				    if ($(this).hasClass('active')) return
-				    $(this).addClass('active');
-				    setTimeout($.proxy(function(){
-				      $(this).removeClass('active')
-				    },this),200)
-				});
-				var $loginToggle = $('.icon-login-toggle');
-				  var $iconLogins = $loginToggle.parent();
-				  $loginToggle.on('mouseenter',function(){
-				    $iconLogins.toggleClass('fold')
-				  })
-				  $iconLogins.on('mouseleave',function(){
-				      $iconLogins.addClass('fold')
-				  })
-			} (window.jQuery)
-
-			function addFavorite() {
-				if (document.all) {
-					try {
-						window.external.addFavorite(window.location.href, document.title);
-					} catch (e) {
-						window.alert("¶Ô²»Æğ£¬ÄúµÄä¯ÀÀÆ÷²»Ö§³Ö´Ë²Ù×÷£¡\n\rÇëÄúÊ¹ÓÃÊ¹ÓÃCtrl+DÊÕ²Ø±¾Õ¾");
-					}
-				} else if (window.sidebar) {
-					window.sidebar.addPanel(document.title, window.location.href, "");
-				} else {
-					window.alert("¶Ô²»Æğ£¬ÄúµÄä¯ÀÀÆ÷²»Ö§³Ö´Ë²Ù×÷£¡\n\rÇëÄúÊ¹ÓÃÊ¹ÓÃCtrl+DÊÕ²Ø±¾Õ¾");
-				}
-			}
-			function forwardEmailLink(email) {
-				if (email == null || email == "") return "";
-				var emlower = email.toLowerCase();
-				var link = "<a target='_blank' href='http://";
-				if (emlower.indexOf("@qq.com") > 0 || emlower.indexOf("@163.com") > 0 || emlower.indexOf("@126.com") > 0 || emlower.indexOf("@tom.com") > 0 || emlower.indexOf("@sina.com") > 0 || emlower.indexOf("@yahoo.com") > 0) {
-					link += "mail." + emlower.substring(emlower.indexOf("@") + 1);
-				}
-				else {
-					link += "www." + emlower.substring(emlower.indexOf("@") + 1);
-				}
-				link += "'>Ç°Íù²éÊÕ</a>";
-				return link;
-			}
-			function PopupMessage(type, msg, hideTime,backdrop){
-				if(msg == null || msg == "" || type < 0) return;
-				if(type == 0){
-					type = 'icon-success'
-				}else if(type == 'warning'){
-					type = 'icon-warning'
-				}else{
-					type = 'icon-danger'
-				}
-				$("#pop_message_icon").removeClass("icon-danger icon-success icon-warning").addClass(type);
-				$("#pop_message_content").html(msg);
-                if(msg != null && msg.length <= 25){ $("#pop_msg_head").css("text-align","center"); }
-                else{ $("#pop_msg_head").css("text-align","center"); }
-				$('#pop_message_dlg').modal({show:true, backdrop:backdrop ? backdrop : false });
-				if(hideTime != null && hideTime > 0) window.setTimeout(function () { $('#pop_message_dlg').modal('hide'); }, hideTime);
-			}
-			function setupScriptDelay(scriptPath, sync, onHead){
-				var setupScript = document.createElement("script"); setupScript.type = 'text/javascript';
-				if(!sync) setupScript.async = true;
-				if(scriptPath.indexOf("http") == 0) setupScript.src = scriptPath;
-				else setupScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + scriptPath;
-				if(onHead) document.getElementsByTagName("head")[0].appendChild(setupScript);
-				else document.body.appendChild(setupScript);
-			}
-
-			function setupGlobalScript(){
-				setupScriptDelay("hm.baidu.com/h.js?d89d7d47b4b1b8ff993b37eafb0b49bd", true, true);
-				google_analytics_script();
-				//alexa_script();
-			}
-			$(function () {
-			    $.ajaxSetup({ timeout: 45000 });
-				$(document).ajaxStart(function () {
-					var bgfi = $("div.modal-backdrop.in");
-					if (bgfi != null && bgfi.length > 0) $('#jquery_ajax_loading').modal({ show: true, backdrop: false, keyboard: false });
-					else $('#jquery_ajax_loading').modal({ show: true, backdrop: 'static', keyboard: false });
-				}).ajaxSend(function(evt, request, settings) {
-				    console.log(settings.url);
-				}).ajaxStop(function () {
-					$('#jquery_ajax_loading').modal('hide');
-					var bgfi = $("div.modal-backdrop.in");
-					if (bgfi == null || bgfi.length == 0){ $("body").removeClass("modal-open"); }
-				});
-				window.setTimeout("setupGlobalScript()", 350);
-			});
-			//var _bdhmProtocolExternal = (("https:" == document.location.protocol) ? " https://" : " http://");
-			//document.write(unescape("%3Cscript src='" + _bdhmProtocolExternal + "hm.baidu.com/h.js%3Fd89d7d47b4b1b8ff993b37eafb0b49bd' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-
-	</body>
+</body>
 </html>

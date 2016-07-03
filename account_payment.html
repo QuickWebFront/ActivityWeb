@@ -20,6 +20,7 @@
 
 
     <link href="./static/css/user_page.min.css" rel="stylesheet" type="text/css" />
+     <link href="./static/css/event-create.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="./static/js/jquery/jquery.validate.min.js"></script>
     <script type="text/javascript" src="./static/js/jquery/messages_cn.js"></script>
@@ -130,7 +131,7 @@ PopupMessage(1, "修改个人支付信息出错：服务不存在或无响应", 
           <div>
             <div class="alert alert-error" style="margin: 20px 0px;">您还没有添加常用收款帐号，点击 <a href="#" onclick="javascript:editUserPaymentInfo(-1,0);return false;">新增</a> 立即添加。</div>
             <div style="margin-top:10px;">
-              <a href="#" onclick="javascript:editUserPaymentInfo(-1,0);return false;" class="btn btn-primary btn-lg" style="margin-right:10px">新增银行收款帐号</a><a href="#" onclick="javascript:editUserPaymentInfo(-1,1);return false;" class="btn btn-primary btn-lg">新增支付宝收款帐号</a>
+              <a href="#" onclick="javascript:editUserPaymentInfo(-1,0);return false;" class="btn btn-primary " style="margin-right:10px">新增银行收款帐号</a><a href="#" onclick="javascript:editUserPaymentInfo(-1,1);return false;" class="btn btn-primary">新增支付宝收款帐号</a>
             </div>
             <form action="/account/Payment" enctype="multipart/form-data" id="account_payment_form" method="post" style="display:none;padding-left:20px;padding-top:40px">				<fieldset>
                 <input type="hidden" id="payment_info_sn" name="SN" value="-1"/>
@@ -178,10 +179,10 @@ PopupMessage(1, "修改个人支付信息出错：服务不存在或无响应", 
                     <div>
                       <img src="" width="534" style="width:534px;display:none;" id="payment_card_pic"/>
                     </div>
-                    <div class="btn btn-default btn-file">
+                    <div class="btn btn-info">
                       <span>选取文件</span>
-                      <input type="file" name="PicSrc" title="选择上传银行卡/折照片" />
-                      <input type="hidden" name="BankPic" id="payment_bankcard_file"/>
+                     <!--  <input type="file" name="PicSrc" title="选择上传银行卡/折照片" />
+                      <input type="hidden" name="BankPic" id="payment_bankcard_file"/> -->
                     </div>
                   </div>
                 </div>

@@ -37,11 +37,11 @@ $(".jiabin").mouseover(function () {
     $(".spons").hide()
     $(".gues").show()
 })
-$(".lazy").lazyload({threshold : 0 ,
+/*$(".lazy").lazyload({threshold : 0 ,
     effect:"show",
     placeholder : "../img/default_activity.png",
     event:"scroll"
-});
+});*/
 $(".recent").each(function(i){
     $($($(".recent")[i]).find(".name")[0]).addClass("choose")
 })

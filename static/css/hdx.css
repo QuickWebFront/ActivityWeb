@@ -1,4 +1,20 @@
+.input-medium {
+	width: 150px
+}
+.input-large {
+	width: 210px
+}
+.input-xlarge {
+	width: 270px
+}
+.modal {
+	top:60px;
+}
 
+
+.form-control{
+	display: inline-block;
+}
 ol,ul {
 	margin-bottom: 0;
 	padding-left: 0;
@@ -180,4 +196,222 @@ ol,ul {
 .bottom_tools>* {
 	display: block;
 	margin-top: 5px
+}
+
+
+
+.fade {
+	-webkit-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
+	opacity: 0
+}
+
+.fade.in {
+	opacity: 0.9
+}
+
+.alert {
+	margin-bottom: 20px;
+	padding: 8px 35px 8px 14px;
+	border: 1px solid #fbeed5;
+	border-radius: 4px;
+	background-color: #fcf8e3;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+	font-size: 12px
+	
+}
+
+.alert .close {
+	line-height: 20px;
+	position: relative;
+	top: -2px;
+	right: -21px
+}
+.alert, .alert h4 {
+	color: #c09853
+}
+
+.alert h4 {
+	margin: 0
+}
+/*
+.btn-file {
+	position: relative
+}
+
+.btn-file input {
+	width:90px;
+	font-size: 23px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	cursor: pointer;
+	-webkit-transform: translate(-300px, 0) scale(4);
+	-o-transform: translate(-300px, 0) scale(4);
+	transform: translate(-300px, 0) scale(4);
+	opacity: 0;
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+	filter: alpha(opacity = 0);
+	direction: ltr
+}
+.btn-file span {
+	width: 20px;
+	height: 21px;
+	
+}
+
+*/
+
+
+
+
+.bootstrap-select {
+	position: relative
+}
+
+.bootstrap-select.open {
+	border-color: #62b651;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	*z-index: 1
+}
+
+.bootstrap-select .dropdown-menu {
+	left: -1px;
+	margin-top: 1px;
+	border: solid #e5e5e5;
+	border-width: 0 1px 1px;
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .3)
+}
+
+.bootstrap-select .dropdown-menu li {
+	line-height: 38px
+}
+
+.bootstrap-select .dropdown-menu li a {
+	padding-left: 10px;
+	cursor: pointer;
+	color: #333
+}
+
+.bootstrap-select .dropdown-menu li a:focus, .bootstrap-select .dropdown-menu li a:hover
+	{
+	background: #e5e5e5
+}
+
+
+
+.dropdown2>a:focus, .dropdown2>a:hover, .dropdown>a:focus, .dropdown>a:hover
+	{
+	text-decoration: none
+}
+
+.dropdown2 .open>a {
+	border-color: #498d3c;
+	background-color: #59a64a
+}
+
+[data-toggle]:focus {
+	outline: 0
+}
+
+.dropdown-menu, .dropdown2-menu {
+	position: absolute;
+	z-index: 1000;
+	top: 100%;
+	left: 0;
+	display: none;
+	float: left;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	list-style: none;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box
+}
+
+.dropdown-menu.pull-right, .dropdown2-menu.pull-right {
+	right: 0;
+	left: auto
+}
+
+.dropdown-menu li a, .dropdown2-menu li a {
+	font-weight: 400;
+	display: block;
+	clear: both;
+	outline: 0
+}
+
+.dropdown2-up .dropdown-menu, .dropdown2-up .dropdown2-menu {
+	top: auto;
+	bottom: 100%
+}
+
+.dropdown2-menu {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #59a64a
+}
+
+.dropdown2-menu li a {
+	line-height: 40px;
+	white-space: nowrap;
+	color: #fff;
+	border-top: 1px solid #498d3c
+}
+
+.dropdown2-menu li:last-child a {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+
+.dropdown-menu li a:active, .dropdown-menu li a:focus, .dropdown-menu li a:hover,
+	.dropdown2-menu li a:active, .dropdown2-menu li a:focus,
+	.dropdown2-menu li a:hover {
+	text-decoration: none
+}
+
+.dropdown2-menu li a:active, .dropdown2-menu li a:focus, .dropdown2-menu li a:hover
+	{
+	background-color: #62b651
+}
+
+.open .dropdown-menu, .open .dropdown2-menu {
+	display: block
+}
+
+.open>a {
+	outline: 0
+}
+
+.dropdown2-white .dropdown2-menu {
+	border-bottom: 1px solid #e5e5e5;
+	background: #fff
+}
+
+.dropdown2-white li a {
+	color: #62b651;
+	border: solid #e5e5e5;
+	border-width: 1px 1px 0
+}
+
+.dropdown2-white li a:active, .dropdown2-white li a:focus,
+	.dropdown2-white li a:hover {
+	background-color: #eee
+}
+
+.dropdown2-white>a {
+	border: solid transparent;
+	border-width: 1px 1px 0;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px
+}
+
+.dropdown2-white.open>a {
+	border-color: #e5e5e5;
+	background: #fff
 }
