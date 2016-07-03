@@ -96,6 +96,23 @@ ol,ul {
 	cursor: default
 }
 
+.tab-content  {
+	float:none !important;
+	margin-top:70px !important;
+}
+.tab-content .tab-pane {
+	float:none;
+	display: none
+}
+
+.tab-content .tab-pane.active {
+	display: block
+}
+
+.tab-content .tab-pane .tips {
+	color: #a0a0a0
+}
+
 
 .hdx-app-db {
 	font-family: Microsoft Yahei;

@@ -10,16 +10,16 @@
     <!-- Set render engine for 360 browser -->
     <meta name="renderer" content="webkit">
 
-    <link href="static/css/hdx.css" rel="stylesheet" type="text/css" />
 
     <!--[if lte IE 6]><link href="static/css/ie6-fix.css" type="text/css" rel="stylesheet"><![endif]-->
     <!--[if IE 7]><link rel="stylesheet" type="text/css" href="static/css/ie.css" /><![endif]-->
 
-    <link href="static/css/user_page.min.css" rel="stylesheet" type="text/css"/>
     <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="static/css/base.css" rel="stylesheet" type="text/css"/>
     <link href="static/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="static/css/hdx.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/user_page.min.css" rel="stylesheet" type="text/css"/>
     <style type="text/css">
       #bdshare{padding-bottom: 0}
       .share .share-btns a,.share .share-btns span{background-image:url(http://cdn.huodongxing.com/Content/v2.0/dist/css/sprite/share-logins.32.png);!important;padding: 0;width:20px;height:20px;}
@@ -141,13 +141,82 @@ Date.prototype.format = function (format) { //author: meizz
             <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=4239668"></script>
             <script type="text/javascript" id="bdshell_js"></script>
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade active in" id="user-favorite-event">
+            <!--  <div role="tabpanel" class="tab-pane fade active in" id="user-favorite-event">
                 <div class="user-favorite-list-empty">
                   <div></div><a href="/events" target="_blank">快去试试吧！</a>
                 </div>
 
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="user-favorite-org">
+              </div>  -->
+					<div role="tabpanel" class="tab-pane fade active in" id="user-favorite-event">
+						<ul class="user-favorite-list user-favorite-list-event">
+							<li><a href="./sponsor_detail.html">
+									<img src="./static/img/sponsor_sample.jpg" alt="">
+								</a>
+								<h3>
+									<a href="./activity_detail.html">ESIC 2016企业服务创新大会</a>
+								</h3>
+	
+								<div>所属主办方：品途商业评论</div>
+								<div>
+									活动时间：2016-07-05 09:00 <label class="label label-danger">即将开始</label>
+								</div>
+								<div class="apply">
+									<!-- <div class="share">
+										<div class="share-btns">
+											Baidu Button BEGIN
+											<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"
+												data="{'bdDes':'ESIC 2016企业服务创新大会','text':'#线下活动# 我在 @活动行 发现一个不错的活动 #ESIC 2016企业服务创新大会#，分享给大家！','title':'#线下活动# 我在 @活动行 发现一个不错的活动 #ESIC 2016企业服务创新大会#，分享给大家！','pic':'http://cdn.huodongxing.com/logo/201605/7334589816200/632357680880492_v2.jpg','url':'http://www.huodongxing.com/event/7334589816200','wbuid':'2853471142'}">
+												<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+												<a class="bds_douban" title="分享到豆瓣网" href="#"></a>
+												<a class="bds_renren" title="分享到人人网" href="#"></a>
+												<a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+											</div>
+											Baidu Button END
+										</div>
+										<a class="weixin" title="分享到微信" href="#"
+											onclick=" javascript:$('#wechat_modal_7334589816200').show();return false; "></a>
+									</div>
+									<a class="user-share-btn">
+										<span class="icon-user-share"></span>
+										分享
+									</a> -->
+									<div>
+										<a href="./activity_detail.html" target="_blank"
+											class="btn btn-primary"> 我要报名 </a>
+									</div>
+								</div></li>
+						</ul>
+	
+	
+						<div id="wechat_modal_7334589816200"
+							style="background-clip: padding-box; background-color: #FFFFFF; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.3); border-radius: 6px 6px 6px 6px; box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); left: 50%; margin: -200px 0 0 -200px; overflow: hidden; position: fixed; top: 50%; width: 360px; height: 360px; overflow: hidden; font: 14px/1.5 'Microsoft YaHei', arial, tahoma, \5b8b\4f53, sans-serif; display: none;">
+							<div id="wechat_modal_header" style="border-bottom: 1px solid #EEEEEE; padding: 9px 15px;">
+								<a
+									style="text-decoration: none; margin-top: 2px; color: #000000; float: right; font-size: 20px; font-weight: bold; cursor: pointer; line-height: 20px; opacity: 0.2; text-shadow: 0 1px 0 #FFFFFF;"
+									onclick=" javascript:document.getElementById('wechat_modal_7334589816200').style.display = 'none'; "
+									target="_self">×</a>
+								<h3
+									style="line-height: 30px; margin: 0; font-weight: normal; font-size: 1.17em; font-family: 'Microsoft YaHei', arial, tahoma, \5b8b\4f53, sans-serif;">分享到微信朋友圈</h3>
+							</div>
+							<div style="text-align: center; height: 251px; margin: 0; padding: 0;">
+								<p style="margin: 0; padding: 0;"></p>
+								<div style="padding: 35px;">
+									<img src="http://oss.huodongxing.com/logo/201605/7334589816200/promote.png"
+										onerror=" javascript:this.onerror = null;this.src = 'http://qr.liantu.com/api.php?w=180&amp;text='; "
+										alt="活动二维码" style="width: 180px; height: 180px;" width="180" height="180">
+								</div>
+								<p></p>
+							</div>
+							<div
+								style="background-color: #F5F5F5; border-radius: 0 0 6px 6px; border-top: 1px solid #DDDDDD; box-shadow: 0 1px 0 #FFFFFF inset; height: 100%; padding: 0 10px; padding-top: 11px; text-align: right; font-size: 12px;">
+								<div style="text-align: left; margin: 0; padding: 0; font-size: 12px;">打开微信，点击底部的“发现”，使用
+									“扫一扫” 即可将网页分享到我的朋友圈。</div>
+							</div>
+						</div>
+	
+	
+					</div>
+						<div role="tabpanel" class="tab-pane fade" id="user-favorite-org">
 
                 <div class="user-favorite-list-empty">
                   <div></div><a href="/zhubanfang" target="_blank">快去试试吧！</a>
