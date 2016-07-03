@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>找回密码</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=960, initial-scale=1.0" />
+
+    <link href="static/css/hdx.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/base.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]><link href="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/css/ie6-fix.css" type="text/css" rel="stylesheet"><![endif]-->
+
+
+    <script type="text/javascript" src="static/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/com.js"></script>
+
+    <!--[if lt IE 9]><script type="text/javascript" src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/ie/html5.js"></script><![endif]-->
+
+
+    <script type="text/javascript" src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/validate/messages_cn.js"></script>
+    <script type="text/javascript" src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/jquery.form.js"></script>
+    <script type="text/javascript" src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/bootstrap/bootstrap-form.js"></script>
+
+
+    <script type="text/javascript">
+      function google_analytics_script(){
+        (function (i, s, o, g, r, a, m) {
+         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+         (i[r].q = i[r].q || []).push(arguments)
+         }, i[r].l = 1 * new Date(); a = s.createElement(o),
+         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-34953182-1', 'huodongxing.com');
+        if(false) {
+          ga('set', '&uid', { 'userId':''});
+        }
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+        ga(function(tracker) { $("#google_analytics_client_id").val(tracker.get('clientId')); });
+      }
+
+var uvOptions = {};
+var _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "huodongxing.com", dynamic: true };
+</script>
+
+  </head>
+  <body>
+    <!--[if lte IE 6]><script src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/js/ie/warning.js"></script><script>window.onload=function(){e("https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/img/");}</script><![endif]-->
+    <script> util.topnav(); </script>
+
+    <div class="container" style="min-height:460px;">
+
+
+      <div class="row" >
+        <div class="col-sm-12">
+          <div style="padding:20px 35px;">
+            <div class="page-header">
+              <span class="label" style="padding: 8px 10px; background-color: #0099e9; border-bottom-left: 0px; border-bottom-right: 0px;color: white; font-size: 20px;">找回密码</span>
+              <div class="page-header-line" style="border: 1px solid #0099e9; margin-top: 4px;"></div>
+            </div>
+            <br/>
+            <form action="" class="form-horizontal" id="account_recovery_pwd" method="post">                <fieldset>
+                <input type="hidden" name="returnUrl"  value=""/>
+                <input type="hidden" name="webTokenValue" id="webTokenValue" value="12948A1859B10E3E58574AC54F073EC56C79AE66ED7A4F33D8" />
+                <div class="form-group">
+                  <label class="control-label col-sm-2">邮箱或手机</label>
+                  <div class="col-sm-4">
+                    <input type="text" id="recovery_contact" name="contact" class="form-control required"  minlength="5" maxlength = "60" placeholder = "请填写注册时的邮箱或手机号" value="">
+                  </div>
+                  <div class="col-sm-2">
+                    <a type="button" class="btn btn-info" id="send_code_btn" href="#" onclick="javascript:sendRecoverCode();return false;"><i class="icon-ok-sign icon-white"></i>&nbsp;发送验证码
+                      <span id="sending_animal_remain" style="display:none;"></span>
+                    </a>
+                    <span class="help-inline" id="sending_msg_span"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2">请输入验证码</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="recovery_code" name="code" class="form-control required" minlength="5" value=" " placeholder = "请填写邮件或短信收到的验证码">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2">新密码</label>
+                  <div class="col-sm-6">
+                    <input type="password" id="recovery_new_pwd" name="new_pwd" class="form-control required" value="" minlength="6" maxlength = "20" placeholder = "限6~20字符">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2">确认新密码</label>
+                  <div class="col-sm-6">
+                    <input type="password" id="recovery_repeat_pwd" name="repeat_pwd" class="form-control required" value="" equalTo="#recovery_new_pwd" minlength="6" maxlength = "20" placeholder = "限6~20字符">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2">验证码</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" placeholder="验证码" type="text" id="HDXCaptchaText" name="HDXCaptchaText" style="width:76px;"/><input type="hidden" name="HDXCaptchaGuid" id="HDXCaptchaGuid1422296549" value="117E8E0D09336794F95FEB18EA70101012D5E5FC6D0407A2DE"class='HDXCaptchaGuid' /><a href="javascript:_reloadHDXCaptchaImage();"><img src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/captcha/119D02CC157356FCD5" alt="HDXCaptcha" title="刷新图片" class="hdxCaptchaImage" style="width:120px;height:40px;"id="HDXCaptchaImage1422296549" border="0"/></a><a class="hdxCaptchaRefresh" href="javascript:_reloadHDXCaptchaImage();"></a><script language="javascript" type="text/javascript">function _reloadHDXCaptchaImage(){var ci=document.getElementsByClassName('hdxCaptchaImage');var guid = document.getElementsByClassName('HDXCaptchaGuid');var getImg='/gethdxcaptcha';$.ajax({ url: getImg, type: "POST", global: false, data: { "guid": ci.id }, success: function (data) {if (data != null) { for(var i=0; i<ci.length; i++) { ci[i].src = ci[i].src.substr(0, ci[i].src.lastIndexOf('/') + 1) + data.imgUrl;} for(i=0; i<guid.length; i++) {guid[i].value = data.id;} } } } );}</script>
+                    <a class="icon-refresh-code" onclick="javascript:_reloadHDXCaptchaImage();return false;" href="#" style="margin:10px 0px 0px 10px;"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-offset-6">
+                  <button class="btn btn-primary btn-large" type="submit">&nbsp;确&nbsp;&nbsp;定&nbsp;</button>
+                </div>
+              </fieldset>
+          </form>		  </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script> util.footerhtml(); </script>
+
+    <div id="jquery_ajax_loading" class="modal hide" style="width:360px;margin:-100px 0 0 -180px;">
+      <div class="modal-body alert alert-info" style="padding:30px;margin-bottom:0px;text-align:center;">
+        <img src="https://huodongxing.oss-cn-hangzhou.aliyuncs.com/Content/img/ajax-loader.gif" alt="loading" /> &nbsp;正在处理中，请稍候...
+      </div>
+    </div>
+    <div id="alert_message_dlg" class="modal hide" style="width:400px;margin:-100px 0 0 -200px;">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">×</button>
+        <h4 style="margin:5px 0px;font-weight:bold;" id="alert_message_title">提示信息</h4>
+      </div>
+      <div class="modal-body" style="padding:30px;margin-bottom:0px;">
+        <span class="icon-danger" id="alert_message_icon"></span><span id="alert_message_content"></span>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var time_remain;
+      var animal_sending_timer = null;
+      function sendRecoverCode() {
+        if($("#send_code_btn").is(".disabled")) return;
+        var aim = $("#recovery_contact").val();
+        if(aim == null || $.trim(aim) == ""){
+          $("#sending_msg_span").html('<font style="color:red;">请输入邮箱地址或手机号码</font>');
+          return;
+        }
+        $("#recovery_code").val("");
+        $("#send_code_btn").addClass("disabled");
+        $("#recovery_contact").prop("readonly", true);
+        time_remain = 120;
+        $("#sending_animal_remain").show();
+        animal_sending_timer = window.setInterval(animalSendingBtn, 1000);
+        $.ajax({
+url: '/account/send_recover_code',
+type: "POST",
+global: false,
+data: { "contact": aim, "token": "12F077CF0DBA81AE56B990CB1B7CF8D5E1663D5ABEDEC397F1" },
+success: function (data) {
+if(data != null && data.AjaxErrStatus != null && data.AjaxErrStatus == 1){
+$("#sending_msg_span").html('<font style="color:red;">发送验证码出错，原因：' + data.AjaxErrMsg + '</font>');
+time_remain = 0;
+return;
+}
+
+if (data != null && data >= 0) {
+if (data == 1) {
+$("#sending_msg_span").html('<font style="color:green;"><strong>验证码已成功发送到您的手机。</strong>&nbsp;（如您一直没有收到，可点击“发送验证码”按钮重新发送，一日内限发三次）</font>');
+} else {
+$("#sending_msg_span").html('<font style="color:green;"><strong>验证码已成功发到您的信箱。</strong>&nbsp;（如您一直没有收到，可点击“发送验证码”按钮重新发送，一日内限发五次）</font>');
+}
+} else {
+$("#sending_msg_span").html('<font style="color:red;">发送验证码出错，请稍后重试。</font>');
+time_remain = 0;
+}
+},
+error: function (XMLHttpRequest, textStatus, errorThrown) {
+         $("#sending_msg_span").html('<font style="color:red;">发送验证码出错，原因：服务不存在或无响应</font>');
+         time_remain = 0;
+       }
+});
+}
+
+function animalSendingBtn() {
+  if(time_remain > 0){
+    time_remain = time_remain - 1;
+    $("#sending_animal_remain").html(time_remain);
+  }
+  else{
+    try{ window.clearInterval(animal_sending_timer); } catch(e){}
+    $("#send_code_btn").removeClass("disabled");
+    $("#sending_animal_remain").hide();
+    $("#recovery_contact").prop("readonly", false);
+  }
+}
+
+$(function () {
+    $("#account_recovery_pwd").validate({
+submitHandler: function (form) {
+jQuery(form).ajaxSubmit({
+success: function (data) {
+if (data != null && data == true) {
+window.alert("您好，重设密码成功，点确定进入登录页面。");
+window.location = 'http://www.huodongxing.com/login?ReturnUrl=';
+}
+else{ 
+window.alert("对不起，恢复帐户密码出错，请稍后重试。");
+window.location = window.location;
+}
+},
+error: function (XMLHttpRequest, textStatus, errorThrown) {
+window.alert("恢复帐户密码出错，原因：\n服务不存在或无响应");
+}
+});
+}
+});
+
+if($.trim($("#recovery_code").val()) != "" && $.trim($("#recovery_contact").val()) != ""){
+  $("#recovery_contact").prop("readonly", true);
+  $("#recovery_code").prop("readonly", true);
+  $("#send_code_btn").hide();
+}
+setTimeout(function () { $("#recovery_code").val($.trim($("#recovery_code").val())); }, 500);
+});
+</script>
+
+<script type="text/javascript">
+  function AlertMessage(msgTitle, type, msg, hideTime) {
+    if (msg == null || msg == "" || type < 0) return;
+    if (msgTitle == null || msgTitle == "") { $("#alert_message_title").html("提示信息"); }
+    else { $("#alert_message_title").html(msgTitle); }
+    $("#alert_message_icon").removeClass("icon-danger").removeClass("icon-success").addClass(type == 0 ? "icon-success" : "icon-danger");
+    $("#alert_message_content").html(msg);
+    $('#alert_message_dlg').modal({ show: true, backdrop: "static" });
+    if (hideTime != null && hideTime > 0) window.setTimeout(function () { $('#alert_message_dlg').modal('hide'); }, hideTime);
+  }
+
+function setupScriptDelay(scriptPath, sync, onHead){
+  var setupScript = document.createElement("script"); setupScript.type = 'text/javascript';
+  if(!sync) setupScript.async = true;
+  if(scriptPath.indexOf("http") == 0) setupScript.src = scriptPath;
+  else setupScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + scriptPath;
+  if(onHead) document.getElementsByTagName("head")[0].appendChild(setupScript);
+  else document.body.appendChild(setupScript);
+}
+function setupGlobalScript(){
+  setupScriptDelay("hm.baidu.com/h.js?d89d7d47b4b1b8ff993b37eafb0b49bd", true, true);
+  google_analytics_script();
+  //alexa_script();
+}
+function throttle(func, wait, options) {
+  var context, args, result;
+  var timeout = null;
+  var previous = 0;
+  options || (options = {});
+  var later = function () {
+    previous = options.leading === false ? 0 : +new Date;
+    timeout = null;
+    result = func.apply(context, args);
+    context = args = null;
+  };
+  return function () {
+    var now = +new Date;
+    if (!previous && options.leading === false) previous = now;
+    var remaining = wait - (now - previous);
+    context = this;
+    args = arguments;
+    if (remaining <= 0) {
+      clearTimeout(timeout);
+      timeout = null;
+      previous = now;
+      result = func.apply(context, args);
+      context = args = null;
+    } else if (!timeout && options.trailing !== false) {
+      timeout = setTimeout(later, remaining);
+    }
+    return result;
+  }
+}
+
+
+$(function () {
+    $.ajaxSetup({timeout: 30000});
+    $("#jquery_ajax_loading").ajaxStart(function () {
+      var bgfi = $("div.modal-backdrop.in");
+      if (bgfi != null && bgfi.length > 0) $('#jquery_ajax_loading').modal({ show: true, backdrop: false });
+      else $('#jquery_ajax_loading').modal({ show: true, backdrop: 'static' });
+      }).ajaxStop(function () {
+        $('#jquery_ajax_loading').modal('hide');
+        });
+    window.setTimeout("setupGlobalScript()", 350);
+    });
+
+//var _bdhmProtocolExternal = (("https:" == document.location.protocol) ? " https://" : " http://");
+//document.write(unescape("%3Cscript src='" + _bdhmProtocolExternal + "hm.baidu.com/h.js%3Fd89d7d47b4b1b8ff993b37eafb0b49bd' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" src="/iplookup"></script>
+<script type="text/javascript">
+  if(remote_ip_info != null){
+    $("input[type=hidden][name='ex_country']").val(remote_ip_info.country);
+    $("input[type=hidden][name='ex_province']").val(remote_ip_info.province);
+    $("input[type=hidden][name='ex_city']").val(remote_ip_info.city);
+
+    $("input[type=hidden][name='City']").val(remote_ip_info.city);
+    $("input[type=hidden][name='Province']").val(remote_ip_info.province);
+    $("input[type=hidden][name='Address']").val(remote_ip_info.province + "--" + remote_ip_info.city);
+
+    $("input[type=hidden][name='country']").val(remote_ip_info.country);
+    $("input[type=hidden][name='province']").val(remote_ip_info.province);
+    $("input[type=hidden][name='city']").val(remote_ip_info.city);
+    $("input[type=hidden][name='district']").val(remote_ip_info.district);
+
+    var currentRegion = null;
+    if (document.cookie.length > 0) {
+      var regionstart = document.cookie.indexOf("HDX_REGION=");
+      if (regionstart != -1){
+        regionstart = regionstart + "HDX_REGION".length + 1;
+        var regionend = document.cookie.indexOf(";", regionstart);
+        if (regionend == -1) regionend = document.cookie.length;
+        currentRegion = document.cookie.substring(regionstart, regionend);
+      }
+    }
+    if((currentRegion == null || $.trim(currentRegion) == "") && remote_ip_info.city != null && $.trim(remote_ip_info.city) != ""){
+      var regionExDate=new Date();
+      regionExDate.setDate(regionExDate.getDate() + 365);
+      document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=huodongxing.com;path=/;expires=" + regionExDate.toGMTString();
+    }
+  }
+</script>
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+  _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "huodongxing.com", dynamic: true };
+function alexa_script() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); }
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=GgKTe1aoiI00WL" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+<input type="hidden"  value="web02"/>
+  </body>
+</html>
