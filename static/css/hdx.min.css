@@ -8918,7 +8918,7 @@ div.calendar-list-body li .btn {
 .icon-like-before-md, .icon-like-lg, .icon-like-md {
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .pay-order .event-vertical-list h3 {
@@ -9337,7 +9337,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 16px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px 0
 }
 
@@ -9345,13 +9345,13 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 22px;
 	height: 21px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .active>.icon-favorites, a:focus>.icon-favorites, a:hover>.icon-favorites
 	{
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -18px
 }
 
@@ -9367,7 +9367,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 9px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -36px
 }
 
@@ -9376,7 +9376,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 9px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -54px
 }
 
@@ -9385,7 +9385,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 9px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -72px
 }
 
@@ -9394,13 +9394,13 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 9px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -90px
 }
 
 .hdx-header .items .icon-time {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -108px
 }
 
@@ -9408,13 +9408,13 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 16px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -544px -126px
 }
 
 .hdx-header .items .icon-place {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -458px -120px
 }
 
@@ -9422,14 +9422,14 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -415px -81px
 }
 
 .hdx-header .search input:focus+button .icon-search, .hdx-header .search>button:hover .icon-search
 	{
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -416px 0
 }
 
@@ -9437,13 +9437,13 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 14px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -562px 0
 }
 
 .a:active .icon-goto, a:focus .icon-goto, a:hover .icon-goto {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -562px -18px
 }
 
@@ -9451,7 +9451,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 11px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -562px -36px
 }
 
@@ -9459,12 +9459,12 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover {
 	width: 12px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -562px -54px
 }
 
@@ -9480,14 +9480,14 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 17px;
 	height: 19px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -375px -88px
 }
 
 .icon-dropdown-org:before, .icon-dropdown-ticket:before {
 	width: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-dropdown-org:before {
@@ -9504,7 +9504,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 12px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -418px -101px
 }
 
@@ -9512,7 +9512,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -418px -121px
 }
 
@@ -9520,145 +9520,145 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -423px -20px
 }
 
 .view_block, .view_list {
 	width: 19px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .hdx-header-lite .icon-dropdown-ticket:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -492px -120px
 }
 
 .hdx-header-lite .icon-dropdown-org:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -381px -21px
 }
 
 .hdx-header-lite .icon-mycreate:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -425px -40px
 }
 
 .hdx-header-lite .icon-shutdown:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -382px -42px
 }
 
 .hdx-header-lite .icon-dropdown-config:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -432px -101px
 }
 
 .hdx-header-lite .icon-dropdown-logo:hover:before {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -435px -81px
 }
 
 .fold .icon-login-qq {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -286px -117px
 }
 
 .hdx-header-lite .fold .icon-login-qq {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -293px -25px
 }
 
 .fold .icon-login-weibo {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -294px -47px
 }
 
 .hdx-header-lite .fold .icon-login-weibo {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -306px -69px
 }
 
 .icon-login-alipay {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -308px 0
 }
 
 .icon-login-alipay:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -308px -117px
 }
 
 .icon-login-baidu {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -309px -91px
 }
 
 .icon-login-baidu:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -315px -22px
 }
 
 .icon-login-douban {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -316px -44px
 }
 
 .icon-login-douban:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -328px -66px
 }
 
 .icon-login-qq {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -330px 0
 }
 
 .fold .icon-login-qq:hover, .icon-login-qq:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -330px -113px
 }
 
 .icon-login-renren {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -331px -88px
 }
 
 .icon-login-renren:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -337px -22px
 }
 
 .icon-login-weibo {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -338px -44px
 }
 
 .fold .icon-login-weibo:hover, .icon-login-weibo:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -350px -66px
 }
 
@@ -9670,7 +9670,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 .view_list.active, .view_list:active, .view_list:focus, .view_list:hover
 	{
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -437px -60px
 }
 
@@ -9682,7 +9682,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 .view_block.active, .view_block:active, .view_block:focus, .view_block:hover
 	{
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -394px -84px
 }
 
@@ -9690,14 +9690,14 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -562px -108px
 }
 
 .icon-female, .icon-male {
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-female {
@@ -9714,7 +9714,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 19px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -478px -18px
 }
 
@@ -9722,7 +9722,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 11px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -18px
 }
 
@@ -9730,7 +9730,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 18px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -469px -80px
 }
 
@@ -9738,19 +9738,19 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -36px
 }
 
 .icon-top:focus span, .icon-top:hover span {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -54px
 }
 
 .icon-top.active span, .icon-top:active span {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -72px
 }
 
@@ -9758,14 +9758,14 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 15px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -90px
 }
 
 .icon-reply:active span, .icon-reply:focus span, .icon-reply:hover span
 	{
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -108px
 }
 
@@ -9773,7 +9773,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 12px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -580px -126px
 }
 
@@ -9781,14 +9781,14 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -598px 0
 }
 
 .icon-mail, .icon-nickname, .icon-photo {
 	width: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-mail {
@@ -9810,7 +9810,7 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 14px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -598px -72px
 }
 
@@ -9821,31 +9821,31 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 
 #scrollUp {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -56px -54px
 }
 
 #scrollUp:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -103px -54px
 }
 
 #feedback {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -105px 0
 }
 
 #feedback:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -150px -47px
 }
 
 .qr_tool {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -150px -94px
 }
 
@@ -9853,12 +9853,12 @@ a:active .icon-index, a:focus .icon-index, a:hover .icon-index {
 	width: 17px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .qr_tool:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -152px 0
 }
 
@@ -9874,7 +9874,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 45px;
 	height: 45px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -197px -47px
 }
 
@@ -9882,12 +9882,12 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 14px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .share_tool_icon:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -197px -94px
 }
 
@@ -9903,7 +9903,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 13px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -598px -126px
 }
 
@@ -9911,7 +9911,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px 0
 }
 
@@ -9919,14 +9919,14 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 13px;
 	height: 17px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -463px -20px
 }
 
 .icon-place-primary, .icon-time-primary {
 	width: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-place-primary {
@@ -9943,7 +9943,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 20px;
 	height: 19px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -396px -105px
 }
 
@@ -9951,7 +9951,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 21px;
 	height: 21px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -286px -94px
 }
 
@@ -9959,7 +9959,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 18px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -478px -58px
 }
 
@@ -9967,13 +9967,13 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 24px;
 	height: 20px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -352px 0
 }
 
 .btn-primary:active .icon-weixin {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -484px -35px
 }
 
@@ -9982,7 +9982,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 6px;
 	height: 9px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -18px
 }
 
@@ -9991,7 +9991,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 11px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -36px
 }
 
@@ -9999,7 +9999,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 5px;
 	height: 8px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -54px
 }
 
@@ -10007,7 +10007,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -72px
 }
 
@@ -10015,7 +10015,7 @@ a:focus .icon-share, a:hover .icon-share {
 	height: 20px;
 	width: 20px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .share .default {
@@ -10024,7 +10024,7 @@ a:focus .icon-share, a:hover .icon-share {
 
 .share .default:focus, .share .default:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -353px -88px
 }
 
@@ -10034,7 +10034,7 @@ a:focus .icon-share, a:hover .icon-share {
 
 .share .weixin:focus, .share .weixin:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -360px -44px
 }
 
@@ -10042,7 +10042,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 20px;
 	height: 11px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -497px 0
 }
 
@@ -10055,7 +10055,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 47px;
 	height: 52px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -56px 0
 }
 
@@ -10063,7 +10063,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 12px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -90px
 }
 
@@ -10071,7 +10071,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 23px;
 	height: 26px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -125px -101px
 }
 
@@ -10079,7 +10079,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 40px;
 	height: 40px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -199px 0
 }
 
@@ -10087,7 +10087,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 28px;
 	height: 32px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -95px -101px
 }
 
@@ -10095,7 +10095,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 23px;
 	height: 26px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-warning {
@@ -10110,7 +10110,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 7px;
 	height: 7px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -108px
 }
 
@@ -10118,7 +10118,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 11px;
 	height: 11px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -616px -126px
 }
 
@@ -10126,7 +10126,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 12px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px 0
 }
 
@@ -10134,7 +10134,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 12px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px -18px
 }
 
@@ -10142,7 +10142,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 12px;
 	height: 2px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-sub-xs {
@@ -10157,7 +10157,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 16px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px -72px
 }
 
@@ -10165,7 +10165,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 16px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px -90px
 }
 
@@ -10173,7 +10173,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 24px;
 	height: 24px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -244px -56px
 }
 
@@ -10181,7 +10181,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 10px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px -108px
 }
 
@@ -10189,7 +10189,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 10px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -634px -126px
 }
 
@@ -10197,7 +10197,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601)
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601)
 }
 
 .icon-close {
@@ -10210,7 +10210,7 @@ a:focus .icon-share, a:hover .icon-share {
 
 .icon-close-lg:focus, .icon-close-lg:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -449px -80px
 }
 
@@ -10218,13 +10218,13 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 20px;
 	height: 20px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -372px -66px
 }
 
 .icon-close-green:focus, .icon-close-green:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -374px -110px
 }
 
@@ -10232,7 +10232,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 16px;
 	height: 19px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -398px 0
 }
 
@@ -10240,7 +10240,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 37px;
 	height: 37px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -56px -101px
 }
 
@@ -10248,7 +10248,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 17px;
 	height: 17px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -465px -39px
 }
 
@@ -10256,7 +10256,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 90px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -452px -100px
 }
 
@@ -10264,19 +10264,19 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 40px;
 	height: 23px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -244px -82px
 }
 
 .qqserver li a .qqserver-service-alert {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -244px -107px
 }
 
 .qqserver .qqserver-service-offline span {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -266px 0
 }
 
@@ -10284,13 +10284,13 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 26px;
 	height: 132px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: 0 0
 }
 
 .qqserver_fold:hover div {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -28px 0
 }
 
@@ -10298,13 +10298,13 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 18px;
 	height: 18px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -457px 0
 }
 
 .qqserver_arrow:hover {
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -458px -60px
 }
 
@@ -10314,7 +10314,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 13px;
 	height: 13px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px 0
 }
 
@@ -10323,7 +10323,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 14px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px -18px
 }
 
@@ -10332,7 +10332,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 12px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px -36px
 }
 
@@ -10340,7 +10340,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 18px;
 	height: 12px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -396px -126px
 }
 
@@ -10348,7 +10348,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 14px;
 	height: 14px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px -54px
 }
 
@@ -10356,7 +10356,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 16px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px -72px
 }
 
@@ -10366,14 +10366,14 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 11px;
 	height: 7px;
 	background-image:
-		url(sprite/backgrounds.32.png?max_age=19830212&d=20160510161601);
+		url(../img/backgrounds.32.png?max_age=19830212&d=20160510161601);
 	background-position: -652px -90px
 }
 
 .sign-bd .baidu, .sign-bd .douban, .sign-bd .qq, .sign-bd .renren,
 	.sign-bd .weibo {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	width: 129px;
 	height: 44px
 }
@@ -10402,7 +10402,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 129px;
 	height: 44px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -106px -342px
 }
 
@@ -10411,7 +10411,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 102px;
 	height: 35px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .login-layer .weibo {
@@ -10442,7 +10442,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 33px;
 	height: 33px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -104px -388px
 }
 
@@ -10450,7 +10450,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 68px;
 	height: 27px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -237px -335px
 }
 
@@ -10458,7 +10458,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 40px;
 	height: 20px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -307px -317px
 }
 
@@ -10466,12 +10466,12 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 18px;
 	height: 27px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .btn-cal-down:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -307px -339px
 }
 
@@ -10481,7 +10481,7 @@ a:focus .icon-share, a:hover .icon-share {
 
 .btn-cal-next:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -261px -303px
 }
 
@@ -10491,7 +10491,7 @@ a:focus .icon-share, a:hover .icon-share {
 
 .btn-cal-prev:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -271px -269px
 }
 
@@ -10499,7 +10499,7 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 40px;
 	height: 20px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -311px -25px
 }
 
@@ -10507,12 +10507,12 @@ a:focus .icon-share, a:hover .icon-share {
 	width: 25px;
 	height: 25px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .btn-cal-up:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -311px -47px
 }
 
@@ -10528,7 +10528,7 @@ a:hover .icon-calendar {
 	width: 17px;
 	height: 17px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -311px -268px
 }
 
@@ -10536,7 +10536,7 @@ a:hover .icon-calendar {
 	width: 5px;
 	height: 9px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px 0
 }
 
@@ -10544,13 +10544,13 @@ a:hover .icon-calendar {
 	width: 66px;
 	height: 22px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -237px -364px
 }
 
 .weibo-follow:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -104px
 }
 
@@ -10558,19 +10558,19 @@ a:hover .icon-calendar {
 	width: 66px;
 	height: 22px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -128px
 }
 
 .icon-rank, .weixin-follow .layer .arrow {
 	width: 22px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .weixin-follow:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -152px
 }
 
@@ -10588,7 +10588,7 @@ a:hover .icon-calendar {
 	width: 20px;
 	height: 340px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: 0 0
 }
 
@@ -10596,7 +10596,7 @@ a:hover .icon-calendar {
 	width: 23px;
 	height: 23px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -114px -87px
 }
 
@@ -10604,13 +10604,13 @@ a:hover .icon-calendar {
 	width: 44px;
 	height: 110px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -22px 0
 }
 
 .event-square-slides .slidesjs-next:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -22px -112px
 }
 
@@ -10618,13 +10618,13 @@ a:hover .icon-calendar {
 	width: 44px;
 	height: 110px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -22px -224px
 }
 
 .event-square-slides .slidesjs-previous:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -68px 0
 }
 
@@ -10632,13 +10632,13 @@ a:hover .icon-calendar {
 	width: 40px;
 	height: 40px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -149px 0
 }
 
 .modal-event-poster .close:hover {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -165px -42px
 }
 
@@ -10646,21 +10646,21 @@ a:hover .icon-calendar {
 	width: 16px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px -18px
 }
 
 .user-follow-list .btn-default:focus .icon-btn-add, .user-follow-list .btn-default:hover .icon-btn-add
 	{
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px -36px
 }
 
 .user-follow-list .btn-default:active .icon-btn-add, .user-follow-list .btn-primary .icon-btn-add
 	{
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px -54px
 }
 
@@ -10668,13 +10668,13 @@ a:hover .icon-calendar {
 	width: 9px;
 	height: 9px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px -72px
 }
 
 .organizer-search-btn:focus span, .organizer-search-btn:hover span {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -248px
 }
 
@@ -10682,7 +10682,7 @@ a:hover .icon-calendar {
 	width: 32px;
 	height: 32px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -237px -269px
 }
 
@@ -10690,7 +10690,7 @@ a:hover .icon-calendar {
 	width: 36px;
 	height: 36px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .vote-grabbing-mode-toggle {
@@ -10705,7 +10705,7 @@ a:hover .icon-calendar {
 	width: 53px;
 	height: 40px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -191px 0
 }
 
@@ -10713,7 +10713,7 @@ a:hover .icon-calendar {
 	width: 33px;
 	height: 42px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -114px 0
 }
 
@@ -10721,7 +10721,7 @@ a:hover .icon-calendar {
 	width: 49px;
 	height: 41px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -114px -44px
 }
 
@@ -10729,7 +10729,7 @@ a:hover .icon-calendar {
 	width: 38px;
 	height: 48px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -66px -336px
 }
 
@@ -10737,7 +10737,7 @@ a:hover .icon-calendar {
 	width: 15px;
 	height: 15px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -423px -90px
 }
 
@@ -10745,7 +10745,7 @@ a:hover .icon-calendar {
 	width: 282px;
 	height: 33px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -139px -388px
 }
 
@@ -10753,7 +10753,7 @@ a:hover .icon-calendar {
 	width: 31px;
 	height: 80px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: 0 -342px
 }
 
@@ -10761,7 +10761,7 @@ a:hover .icon-calendar {
 	width: 31px;
 	height: 80px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -33px -336px
 }
 
@@ -10769,25 +10769,25 @@ a:hover .icon-calendar {
 	width: 18px;
 	height: 16px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -313px 0
 }
 
 .event-poster-like:hover .icon-event-poster-like {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -323px -248px
 }
 
 .event-poster-like.active .icon-event-poster-like {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -327px -176px
 }
 
 .event-poster-like.active:hover .icon-event-poster-like {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -323px -248px
 }
 
@@ -10795,7 +10795,7 @@ a:hover .icon-calendar {
 	width: 19px;
 	height: 23px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -139px -87px
 }
 
@@ -10803,7 +10803,7 @@ a:hover .icon-calendar {
 	width: 25px;
 	height: 23px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -286px 0
 }
 
@@ -10811,14 +10811,14 @@ a:hover .icon-calendar {
 	width: 18px;
 	height: 23px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -291px -269px
 }
 
 .icon-event-details-forum, .icon-event-details-user {
 	width: 24px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935)
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935)
 }
 
 .icon-event-details-forum {
@@ -10835,13 +10835,13 @@ a:hover .icon-calendar {
 	width: 20px;
 	height: 21px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -305px -364px
 }
 
 .ticket-form-upload .btn-file:active span {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -307px -294px
 }
 
@@ -10849,13 +10849,13 @@ a:hover .icon-calendar {
 	width: 22px;
 	height: 22px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -176px
 }
 
 .ticket-form-upload .file-reload:active span {
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -200px
 }
 
@@ -10863,7 +10863,7 @@ a:hover .icon-calendar {
 	width: 24px;
 	height: 22px;
 	background-image:
-		url(sprite/backgrounds2.32.png?max_age=19830212&d=20151127155935);
+		url(../img/backgrounds2.32.png?max_age=19830212&d=20151127155935);
 	background-position: -303px -224px
 }
 
