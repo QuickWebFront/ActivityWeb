@@ -22,7 +22,7 @@
 
     <style type="text/css">
        #bdshare{padding-bottom: 0}
-      .share .share-btns a,.share .share-btns span{background-image:url(http://cdn.huodongxing.com/Content/v2.0/dist/css/sprite/share-logins.32.png);!important;padding: 0;width:20px;height:20px;}
+      .share .share-btns a,.share .share-btns span{background-image:url(static/img/share-logins.32.png);!important;padding: 0;width:20px;height:20px;}
       .share .bds_douban{background-position:-42px 0!important}
       .share .bds_douban:hover,.share .bds_douban:focus,.share .bds_douban:active{background-position:-63px 0!important}
       .share .bds_qzone{background-position:-84px 0!important}
@@ -158,9 +158,298 @@ Date.prototype.format = function (format) { //author: meizz
             </ul>
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane fade in active" id="user-ticket-success">
+			  <ul page='1' status='99' class='user-event-admin user-event-admin-tickets'  style='display:block;'>            <li class="expand">
+            <div>
+                <a href=""><img src="static/img/activity_small.jpg" alt="ESIC 2016企业服务创新大会" title="ESIC 2016企业服务创新大会"/></a>
+                <h3><a href="">ESIC 2016企业服务创新大会</a>
+                </h3>
+                <div class="time" style="border: none;">活动时间：2016-07-05 09:00
+                    <label class="label label-danger">
+                        即将开始
+                    </label>
+                </div>
+                <div class="apply">
+                    <a href="" class="text-primary">
+                        <span>收起订单</span>
+                        展开订单<span class="icon-user-event-arrow"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="user-event-admin-table" style='display: block'>
+            <table>
+            <col width="220">
+            <col width="130">
+            <col width="130">
+            <col width>
+            <col width="140">
+            <thead>
+            <tr>
+                <th>票种</th>
+                <th>数量</th>
+                <th>总价</th>
+                <th>状态</th>
+                    <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            学生免费票
+                        </div>
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+免费                    </td>
+                    <td>
+                        有效票
+                        <br/>
+                            <a href="/user/tikcets?tids=8123767956727">订单详情</a>
+                    </td>
+                        <td class="dropdown2">
+                                        <a class="btn btn-primary" onclick=" javascript:printMyTicket('8123767956727', '0');return false; ">下载</a>
+                                        <br/>
+                                    <textarea id="ticket_print_span_0" style="display: none;">
+														    <table class='table' style="border:1px solid #ddd;margin-bottom:0px;">
+																<thead style="font-size:14px;">
+																	<tr>
+																		<th colspan="4">
+																			ESIC 2016企业服务创新大会
+																			<span class="pull-right" style="font-size:12px;color:gray;">报名时间：7/4/2016 7:05:46 PM</span>
+																		</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td style="width:100px;text-align:center;">
+																			<img src="" alt="" width="93" style="width:93px;"/>
+																		</td>
+																		<td style="width:230px;">
+																			<p style="font-weight:bold;font-size:16px;margin-bottom:5px;">8123767956727</p>
+																			<p style="margin-bottom:5px;">7/5 09:00 至 7/5 18:00</p>
+																			<p style="margin-bottom:5px;">海淀清华大学新清华学堂</p>
+																			<a href="#" onclick="javascript:downloadTicket('gif','8123767956727');return false;" style="font-size:12px;">下载二维码</a>
+																		</td>
+																		<td style="width:210px;">
+																			<p>张三</p>
+																			<p>13500001111</p>
+																			<p>user@example.com</p>
+																		</td>
+																		<td>
+																			        <p><span style="color:green;">免费</span></p>
+																			    <p style="color:gray;">学生免费票</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+													</textarea>
+                                    <a href="#" onclick=" javascript:refundMyTicket('12FE57F818360D41A02D97568F249B3E0D', 2);return false; ">取消</a>
+                        </td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            </li>
+			            <li class="expand">
+            <div>
+                <a href=""><img src="static/img/activity_small.jpg" alt="ESIC 2016企业服务创新大会" title="ESIC 2016企业服务创新大会"/></a>
+                <h3><a href="">ESIC 2016企业服务创新大会</a>
+                </h3>
+                <div class="time" style="border: none;">活动时间：2016-07-05 09:00
+                    <label class="label label-danger">
+                        即将开始
+                    </label>
+                </div>
+                <div class="apply">
+                    <a href="" class="text-primary">
+                        <span>收起订单</span>
+                        展开订单<span class="icon-user-event-arrow"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="user-event-admin-table" style='display: block'>
+            <table>
+            <col width="220">
+            <col width="130">
+            <col width="130">
+            <col width>
+            <col width="140">
+            <thead>
+            <tr>
+                <th>票种</th>
+                <th>数量</th>
+                <th>总价</th>
+                <th>状态</th>
+                    <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            学生免费票
+                        </div>
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+免费                    </td>
+                    <td>
+                        有效票
+                        <br/>
+                            <a href="/user/tikcets?tids=8123767956727">订单详情</a>
+                    </td>
+                        <td class="dropdown2">
+                                        <a class="btn btn-primary" onclick=" javascript:printMyTicket('8123767956727', '0');return false; ">下载</a>
+                                        <br/>
+                                    <textarea id="ticket_print_span_0" style="display: none;">
+														    <table class='table' style="border:1px solid #ddd;margin-bottom:0px;">
+																<thead style="font-size:14px;">
+																	<tr>
+																		<th colspan="4">
+																			ESIC 2016企业服务创新大会
+																			<span class="pull-right" style="font-size:12px;color:gray;">报名时间：7/4/2016 7:05:46 PM</span>
+																		</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td style="width:100px;text-align:center;">
+																			<img src="" alt="" width="93" style="width:93px;"/>
+																		</td>
+																		<td style="width:230px;">
+																			<p style="font-weight:bold;font-size:16px;margin-bottom:5px;">8123767956727</p>
+																			<p style="margin-bottom:5px;">7/5 09:00 至 7/5 18:00</p>
+																			<p style="margin-bottom:5px;">海淀清华大学新清华学堂</p>
+																			<a href="#" onclick="javascript:downloadTicket('gif','8123767956727');return false;" style="font-size:12px;">下载二维码</a>
+																		</td>
+																		<td style="width:210px;">
+																			<p>张三</p>
+																			<p>13500001111</p>
+																			<p>user@example.com</p>
+																		</td>
+																		<td>
+																			        <p><span style="color:green;">免费</span></p>
+																			    <p style="color:gray;">学生免费票</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+													</textarea>
+                                    <a href="#" onclick=" javascript:refundMyTicket('12FE57F818360D41A02D97568F249B3E0D', 2);return false; ">取消</a>
+                        </td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            </li>
+			            <li class="expand">
+            <div>
+                <a href=""><img src="static/img/activity_small.jpg" alt="ESIC 2016企业服务创新大会" title="ESIC 2016企业服务创新大会"/></a>
+                <h3><a href="">ESIC 2016企业服务创新大会</a>
+                </h3>
+                <div class="time" style="border: none;">活动时间：2016-07-05 09:00
+                    <label class="label label-danger">
+                        即将开始
+                    </label>
+                </div>
+                <div class="apply">
+                    <a href="" class="text-primary">
+                        <span>收起订单</span>
+                        展开订单<span class="icon-user-event-arrow"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="user-event-admin-table" style='display: block'>
+            <table>
+            <col width="220">
+            <col width="130">
+            <col width="130">
+            <col width>
+            <col width="140">
+            <thead>
+            <tr>
+                <th>票种</th>
+                <th>数量</th>
+                <th>总价</th>
+                <th>状态</th>
+                    <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            学生免费票
+                        </div>
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+免费                    </td>
+                    <td>
+                        有效票
+                        <br/>
+                            <a href="/user/tikcets?tids=8123767956727">订单详情</a>
+                    </td>
+                        <td class="dropdown2">
+                                        <a class="btn btn-primary" onclick=" javascript:printMyTicket('8123767956727', '0');return false; ">下载</a>
+                                        <br/>
+                                    <textarea id="ticket_print_span_0" style="display: none;">
+														    <table class='table' style="border:1px solid #ddd;margin-bottom:0px;">
+																<thead style="font-size:14px;">
+																	<tr>
+																		<th colspan="4">
+																			ESIC 2016企业服务创新大会
+																			<span class="pull-right" style="font-size:12px;color:gray;">报名时间：7/4/2016 7:05:46 PM</span>
+																		</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td style="width:100px;text-align:center;">
+																			<img src="" alt="" width="93" style="width:93px;"/>
+																		</td>
+																		<td style="width:230px;">
+																			<p style="font-weight:bold;font-size:16px;margin-bottom:5px;">8123767956727</p>
+																			<p style="margin-bottom:5px;">7/5 09:00 至 7/5 18:00</p>
+																			<p style="margin-bottom:5px;">海淀清华大学新清华学堂</p>
+																			<a href="#" onclick="javascript:downloadTicket('gif','8123767956727');return false;" style="font-size:12px;">下载二维码</a>
+																		</td>
+																		<td style="width:210px;">
+																			<p>张三</p>
+																			<p>13500001111</p>
+																			<p>user@example.com</p>
+																		</td>
+																		<td>
+																			        <p><span style="color:green;">免费</span></p>
+																			    <p style="color:gray;">学生免费票</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+													</textarea>
+                                    <a href="#" onclick=" javascript:refundMyTicket('12FE57F818360D41A02D97568F249B3E0D', 2);return false; ">取消</a>
+                        </td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            </li>
+</ul>
+
+			  <!--
                 <div class="user-event-admin-tickets-empty">
                   <div></div><a href="/events" target="_blank">赶快去发现活动！</a>
                 </div>
+			  -->
 
 
               </div>

@@ -9641,3 +9641,31 @@ a:hover .icon-calendar {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
+
+
+
+hr, img {
+	border: 0
+}
+a {
+	background: 0 0;
+	text-decoration: none;
+	color: #2578bf
+}
+
+a:active, a:hover {
+	outline: 0
+}
+img {
+	vertical-align: middle
+}
+a:focus, a:hover {
+	text-decoration: underline;
+	color: #00a0e9
+}
+
+a:focus {
+	outline: #333 dotted thin;
+	outline: -webkit-focus-ring-color auto 5px;
+	outline-offset: -2px
+}
