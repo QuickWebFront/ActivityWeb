@@ -98,7 +98,7 @@ ol,ul {
 
 .tab-content  {
 	float:none !important;
-	margin-top:70px !important;
+	margin-top:-10px !important;
 }
 .tab-content .tab-pane {
 	float:none;
